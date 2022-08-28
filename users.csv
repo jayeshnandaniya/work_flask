@@ -1,0 +1,10 @@
+id,username,email,password,created_at,type,client_details,strategy_details,strategy_details_add,strategy_details_edit,strategy_details_delete,client_details_add,client_details_edit,client_details_delete
+2,Somesh,somesh1515@gmail.com,$2b$12$L.noINOEhOltWAtKz8Xh6uCQG7PUDGIgyZAS83ThizUIrk1sIiCDC,2021-04-16 10:56:40.469666,admin,t,t,t,t,t,t,t,t
+3,Devansh,devansh@sanghviinfo.com,$2b$12$8QpQcfSBCz9UEoybngLZDe25TinA0B4YkNndzC.GKQ1h09xKBFs5G,2021-04-22 13:16:12.930605,user,t,f,t,t,t,t,t,t
+5,thameem,thameem@gmail.com,$2b$12$/HZkn/8krUoYtV1i53cM0O5FNKdDlGZRJfX45AmYdo9zWIY6iBopO,2021-04-27 06:03:34.687259,user,t,t,t,t,t,t,t,t
+7,brijesh,brijesh@mail.com,$2b$12$BA86nv2chjnWr4y3jXFRTOKVbO9PfCR1uwecEuX4/z/Nfyk8zOM6.,2021-05-20 12:22:56.154043,admin,t,t,t,t,t,t,t,t
+8,murtuza,murtuza@gmail.com,$2b$12$w9mu3b4HQ2v0DCQ91OBJO.byjihgYMpx2sKpYSery8BY5UKTEYoRK,2021-06-01 06:39:45.486424,user,t,f,f,f,f,t,t,f
+6,sadiq,sadiq19@gmail.com,$2b$12$uxyOzwUb9l7B7O3IWJGnaOwZHvezDP1MFt.1FUHKgbU5Q/vOVoQKq,2021-05-11 06:13:38.024874,user,f,t,t,t,f,f,f,f
+10,monil,monilparekh@gmail.com,$2b$12$F2fvEcE3ML/.ni9HTDFGlOJDDXb5mG1IRr2mO2RBDhZBpdJXkWria,2021-11-09 07:20:24.014264,user,t,t,t,t,f,f,f,f
+4,Vishal,vishal@gmail.com,$2b$12$pYTrlWE./owIcL/QIGp07u1N/rA8bsadt.yCUPDFytu15oBYoPWJG,2021-04-26 07:49:36.314306,user,t,f,f,f,f,t,t,t
+12,krupali,krupali@gmail.com,$2b$12$EWILu2RZDYVrYFPznA5taej8iLiZVfOHM9QmQt0fiCIpjX/jtc52C,2022-03-28 08:02:39.881883,user,t,f,f,f,f,t,t,f

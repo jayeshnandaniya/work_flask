@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-white">Dashboard</h1>
+      <!--                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                      <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <!-- <a class="navbar-brand ml-10 home-link" href="/">Home</a> -->
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <button type="button" class="btn btn-dark"style="margin-top: 5px; margin-left: 5px;" onclick="exportTableToCSV('strategy_details.csv')">Export To CSV File</button>
+      </li>
+      <li class="nav-item dropdown">
+        <a  href="" data-toggle="modal" class="btn btn-primary"style="margin-top: 5px; margin-left: 5px;" data-target="#importCSV">Import CSV File</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profitable</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{url_for('view_blueprint.profitable', id=true)}}">Yes</a>
+          <a class="dropdown-item" href="{{url_for('view_blueprint.profitable', id=false)}}e">No</a>
+          <a class="dropdown-item" href="{{url_for('view_blueprint.view_reports')}}">All</a>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+  <div class="container-fluid">
+    <div class="table-responsive">
+    <table id="example" class="table cell-border table-striped table-hover table-hover" style="width:100%">
+      <tfoot style="display: table-header-group;">
+            <tr>
+               <th>Strategy Name</th>
+                <th>Account</th>
+                <th>Location</th>
+                <th>Server</th>
+                <th>Investor</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+      </tfoot>
+      <thead>
+        <tr>
+          <th scope="col" class="strategy-name">Strategy Name</th>
+          <th scope="col" class="acc-no">Acc No</th>
+          <th scope="col" class="broker-name">Location</th>
+          <th scope="col" class="server">Server</th>
+          <th scope="col" class="investor">Investor</th>
+          <th scope="col" class="profitable">Profitable</th>
+          <th scope="col" class="profitable_category">Profitable Category</th>
+          <th class="hidden" style="display:none;"> Broker Name</th>
+          <th class="hidden" style="display:none;"> Type</th>
+          <th class="hidden" style="display:none;"> Max Lot</th>
+          <th class="hidden" style="display:none;"> Max M2M</th>
+          <th class="hidden" style="display:none;"> Script </th>
+          <th class="hidden" style="display:none;"> Time Frame </th>
+          <th class="hidden" style="display:none;"> Working Live </th>
+          <th class="hidden" style="display:none;"> Live Streaming </th>
+          <th class="hidden" style="display:none;"> Telegram Channel</th>
+          <th class="hidden" style="display:none;"> Note </th>
+          <th class="hidden" style="display:none;"> Strategy Date </th>
+          <th scope="col" class="more_details">More Details</th>
+          <th scope="col" class="action">Actions</th>
+
+        </tr>
+      </thead>
+
+      <tbody>
+        {%for result in results%}
+          <tr>
+            <td>{{result.strategy_name}}</td>
+            <td>{{result.account_number}}</td>
+            <td>{{result.location}}</td>
+            <td>{{result.server}}</td>
+            <td>{{result.investor}}</td>
+            <td>{{result.profitable}}</td>
+            <td>{{result.profitable_category}}</td>
+            <td class="hidden" style="display:none;">{{result.broker_name}}</td>
+            <td class="hidden" style="display:none;">{{result.type}}</td>
+            <td class="hidden" style="display:none;">{{result.max_lot}}</td>
+            <td class="hidden" style="display:none;">{{result.max_m2m}}</td>
+            <td class="hidden" style="display:none;">{{result.script}}</td>
+            <td class="hidden" style="display:none;">{{result.timestamp}}</td>
+            <td class="hidden" style="display:none;">{{result.working_live}}</td>
+            <td class="hidden" style="display:none;">{{result.live_streaming}}</td>
+            <td class="hidden" style="display:none;">{{result.telegram_channel}}</td>
+            <td class="hidden" style="display:none;">{{result.note}}</td>
+            <td class="hidden" style="display:none;">{{result.strategy_date}}</td>
+            <td><a href="{{ url_for('view_blueprint.view_details', id=result.id) }}"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+            <td>
+                {%if user.strategy_details_edit == True%}
+                  <a href="{{ url_for('view_blueprint.edit_reports', id=result.id) }}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                {%endif%}
+                {%if user.strategy_details_delete == True%}
+                  <a href="{{ url_for('view_blueprint.delete', id=result.id) }}" onclick="return confirm('Are you sure to want to delete?');"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                {%endif%}
+        </tr>
+         {%endfor%}
+
+
+      </tbody>
+
+    </table>
+  </div>
+  </div>
+
+
+
+                    </div>
+
+
+
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+        <!--     <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import new strategies -->
+    <div class="modal fade" id="importCSV" tabindex="-1" role="dialog" aria-labelledby="importCSV"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <form action="{{ url_for('view_blueprint.import_csv') }}" method="post" enctype="multipart/form-data">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="importCSV">Upload CSV</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                    <input type="file" id="fileUpload" name="import_csv" class="form-control form-control-user" accept=".csv"  required>
+                  </div>
+                  <div id="out">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <input class="btn btn-secondary" type="submit" name="upload" value="upload">
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("#fileUpload").on('change',function(){
+        var fileUpload = document.getElementById("fileUpload");
+        const input = fileUpload.files[0];
+        const reader = new FileReader();
+        reader.readAsText(input);
+        reader.onload = function (event) {
+          var rows = event.target.result.split("\n")
+          var arr = []
+          for (var i = 1; i < rows.length; i++) {
+            var columns = rows[i].split(",")
+            if (columns.length > 1){
+              arr.push(columns[1])
+            }
+          }
+          var accounts = []
+          for (var i = 0; i < arr.length; i++) {
+            {% for result in results %}
+              var num =`${({{result.account_number}})}`
+              var new_num = arr[i].replace(/"/g, '');
+              if (new_num === num) {
+                accounts.push(arr[i])
+              }
+            {%endfor%}
+          }
+          var account_len = accounts.length
+          console.log(`existing account ${accounts}`);
+          console.log(`existing account length ${account_len}`);
+          var counts = {};
+          arr.forEach(function (x) { counts[x] = (counts[x] || 0) + 1; });
+          console.log(counts);
+          var duplicates = [...new Set(arr.filter((value, index, self) => self.indexOf(value) !== index))];
+          console.log(arr.length);
+          console.log(duplicates);
+          var total = 0;
+          for (var i = 0; i < duplicates.length; i++) {
+
+            if (counts[duplicates[i]] > 1){
+              console.log(counts[duplicates[i]]);
+              total = total + counts[duplicates[i]] - 1
+            }
+          }
+          console.log(`total ${total}`);
+
+          var tag = document.createElement("p");
+          var hr_tag = document.createElement("hr");
+          var h5_tag = document.createElement("h5");
+          var tag2 = document.createElement("p2");
+          h5_tag.appendChild(document.createTextNode("Duplicates Account Numbers"));
+
+          var text = document.createTextNode(`Rows : ${arr.length}  Duplicates : ${total}`);
+          tag.appendChild(text);
+
+          var accounts = document.createTextNode(`Existing accounts in database ${account_len}`);
+          tag2.appendChild(accounts);
+
+          var input_tag = document.createElement("textarea");
+          input_tag.value = "";
+          for (const duplicate of duplicates){
+              var dsds = counts[duplicate] - 1
+              input_tag.value = input_tag.value + duplicate + ` ( ${dsds} times )` + '\n';
+          }
+          input_tag.cols = "40";
+          input_tag.rows = "6";
+          input_tag.disabled = true;
+          var element = document.getElementById("out");
+          element.appendChild(tag);
+          element.appendChild(tag2);
+          element.appendChild(hr_tag);
+          element.appendChild(h5_tag);
+          element.appendChild(input_tag);
+
+        };
+      });
+    });
+
+    $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        });
+    });
+
+    var table = $('#example').DataTable( {
+        orderCellsTop: true,
+        fixedHeader: true,
+          fixedColumns: true,
+          responsive: true,
+         autoWidth: false,
+
+
+    });
+
+     $( "#example_wrapper" ).prepend( $( ".navbar" ) );
+
+    $( ".navbar, .dataTables_length, #example_filter" ).wrapAll( "<div class='topSticky'></div>" );
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    var wnHeight = $(window).height();
+    console.log(wnHeight,'wnHeight');
+    addHeight = wnHeight - 130;
+    console.log(addHeight,'addHeight');
+    $('.table-responsive').css('height',addHeight);
+
+  });
+
+
+</script>
+<script>
+function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = filename;
+
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+
+    // Hide download link
+    downloadLink.style.display = "none";
+
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+
+    // Click download link
+    downloadLink.click();
+}
+
+function exportTableToCSV(filename) {
+    var csv = [];
+    var rows = document.querySelectorAll("table tr");
+
+    for (var i = 0; i < rows.length; i++) {
+        var row = [], cols = rows[i].querySelectorAll("td, th");
+
+        for (var j = 0; j < cols.length-2; j++)
+            row.push(cols[j].innerText.replace(/\n|,/g, " "));
+
+        csv.push(row.join(","));
+    }
+
+    // Download CSV file
+    downloadCSV(csv.join("\n"), filename);
+}
+
+</script>
+</body>
+
+</html>

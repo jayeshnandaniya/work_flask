@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-white">Clients</h1>
+      <!--                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                      <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <!-- <a class="navbar-brand ml-10 home-link" href="/">Home</a> -->
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <button type="button" class="btn btn-dark"style="margin-top: 5px;" onclick="exportTableToCSV('client_details.csv')">Export To CSV File</button>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+  <div class="container-fluid">
+    <div class="table-responsive">
+    <table id="example" class="table cell-border table-striped table-hover table-hover" style="width:100%">
+      <tfoot style="display: table-header-group;">
+            <tr>
+               <th>CRN</th>
+               <th>Company</th>
+
+            </tr>
+      </tfoot>
+      <thead>
+        <tr>
+          <th scope="col" class="strategy-name">CRN</th>
+          <th scope="col" class="acc-no">Company</th>
+          <th scope="col" class="investor">Created Date</th>
+          <th scope="col" class="profitable">Updated Date</th>
+          <th class="hidden" style="display:none;"> Client Info</th>
+          <th class="hidden" style="display:none;"> Trading Info</th>
+          <th class="hidden" style="display:none;"> Note</th>
+          <th class="hidden" style="display:none;"> Capital</th>
+          <th class="hidden" style="display:none;"> Capital Profit</th>
+          <th class="hidden" style="display:none;"> Status </th>
+          <th class="hidden" style="display:none;"> Profit Date </th>
+          <th class="hidden" style="display:none;"> File Upload Date </th>
+          <th scope="col" class="data">View Data</th>
+          <th scope="col" class="action">Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {%for client in data%}
+          <tr>
+            <td>{{client.crn}}</td>
+            <td>{{client.company}}</td>
+            <td>{{client.date_created.strftime('%d-%m-%Y %H:%M:%S')}}</td>
+            {%if client.date_updated == None%}
+              <td>{{client.date_updated}}</td>
+            {%else%}
+              <td>{{client.date_updated.strftime('%d-%m-%Y %H:%M:%S') }}</td>
+            {%endif%}
+            <td class="hidden" style="display:none;">{{client.data}}</td>
+            <td class="hidden" style="display:none;">{{client.trading_info}}</td>
+            <td class="hidden" style="display:none;">{{client.note}}</td>
+            <td class="hidden" style="display:none;">{{client.capital}}</td>
+            <td class="hidden" style="display:none;">{{client.capital_profit}}</td>
+            <td class="hidden" style="display:none;">{{client.status}}</td>
+            <td class="hidden" style="display:none;">{{client.profit_date}}</td>
+            <td class="hidden" style="display:none;">{{client.upload_date}}</td>
+            <td><a href="{{ url_for('client_blueprint.view_data', id=client.id) }}"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+            <td>
+              {%if user.client_details_edit == True%}
+                <a href="{{ url_for('client_blueprint.edit_client', id=client.id) }}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+              {%endif%}
+              {%if user.client_details_delete == True%}
+                <a href="{{ url_for('client_blueprint.delete_client', id=client.id) }}" onclick="return confirm('Are you sure to want to delete?');"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              {%endif%}
+            </td>
+        </tr>
+         {%endfor%}
+
+
+      </tbody>
+
+    </table>
+  </div>
+  </div>
+
+
+
+                    </div>
+
+
+
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+        <!--     <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        });
+    });
+
+    var table = $('#example').DataTable( {
+        orderCellsTop: true,
+        fixedHeader: true,
+          fixedColumns: true,
+          responsive: true,
+         autoWidth: false,
+
+
+    });
+
+     $( "#example_wrapper" ).prepend( $( ".navbar" ) );
+
+    $( ".navbar, .dataTables_length, #example_filter" ).wrapAll( "<div class='topSticky'></div>" );
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    var wnHeight = $(window).height();
+    console.log(wnHeight,'wnHeight');
+    addHeight = wnHeight - 130;
+    console.log(addHeight,'addHeight');
+    $('.table-responsive').css('height',addHeight);
+
+  });
+
+
+
+</script>
+<script>
+function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = filename;
+
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+
+    // Hide download link
+    downloadLink.style.display = "none";
+
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+
+    // Click download link
+    downloadLink.click();
+}
+
+function exportTableToCSV(filename) {
+    var csv = [];
+    var rows = document.querySelectorAll("table tr");
+
+    for (var i = 0; i < rows.length; i++) {
+        var row = [], cols = rows[i].querySelectorAll("td, th");
+
+        for (var j = 0; j < cols.length-2; j++)
+            row.push(cols[j].innerText.replace(/\n|,/g, " "));
+
+        csv.push(row.join(","));
+    }
+
+    // Download CSV file
+    downloadCSV(csv.join("\n"), filename);
+}
+
+</script>
+</body>
+
+</html>

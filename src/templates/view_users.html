@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-white">Clients</h1>
+      <!--                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                      <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <!-- <a class="navbar-brand ml-10 home-link" href="/">Home</a> -->
+
+    <ul class="navbar-nav mr-auto">
+
+
+    </ul>
+
+  </div>
+</nav>
+
+  <div class="container-fluid">
+    <div class="table-responsive">
+    <table id="example" class="table cell-border table-striped table-hover table-hover" style="width:100%">
+      <tfoot style="display: table-header-group;">
+            <tr>
+               <th>Username</th>
+               <th>Email</th>
+               <th>Type</th>
+
+            </tr>
+      </tfoot>
+      <thead>
+        <tr>
+          <th scope="col" class="strategy-name">Username</th>
+          <th scope="col" class="acc-no">Email</th>
+          <th scope="col" class="investor">Type</th>
+          <th scope="col" class="profitable">Creation Date</th>
+          <th scope="col" class="data">Client Permission</th>
+          <th scope="col" class="action">Strategy Permission</th>
+          <th scope="col" class="action">Update</th>
+          <th scope="col" class="action">Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {%for data in users%}
+          <tr>
+            <td>{{data.username}}</td>
+            <td>{{data.email}}</td>
+            <td>{{data.type }}</td>
+            <td>{{data.created_at.strftime('%d-%m-%Y %H:%M:%S')}}</td>
+            <td >{{data.client_details}}</td>
+            <td >{{data.strategy_details}}</td>
+            <td><a  data-toggle="modal" data-target="#edit_{{ data.id }}"><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+            <td><a href="{{ url_for('client_blueprint.delete_user', id=data.id) }}"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+        </tr>
+        <div class="modal fade" id="edit_{{ data.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Update</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <section class="mx-2 pb-3">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item waves-effect waves-light">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#permission_{{ data.id }}" role="tab" aria-controls="home" aria-selected="false">Permission</a>
+                  </li>
+                  <li class="nav-item waves-effect waves-light">
+                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#change_password_{{ data.id }}" role="tab" aria-controls="profile" aria-selected="true">Change Password</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade" id="permission_{{data.id}}" role="tabpanel" aria-labelledby="home-tab">
+                    <br>
+                    <form class="" action="{{url_for('client_blueprint.update_permission')}}" method="post">
+                        <input type="hidden" name="id" value="{{data.id}}">
+                        <div class="form-check ">
+                          {%if data.strategy_details == True%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Strategy Details</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.strategy_details_add == True%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_add"  name="strategy_details_add" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_add"  name="strategy_details_add" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Strategy Details Add</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.strategy_details_edit == True%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_edit"  name="strategy_details_edit" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_edit"  name="strategy_details_edit" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Strategy Details Edit</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.strategy_details_delete == True%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_delete"  name="strategy_details_delete" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="strategy_details_delete"  name="strategy_details_delete" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Strategy Details Delete</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.client_details == True%}
+                            <input class="form-check-input" type="checkbox" id="client_details" name="client_details" value="true" checked>
+                          {%else%}
+                            <input class="form-check-input" type="checkbox" id="client_details" name="client_details" value="true" />
+                          {%endif%}
+                          <label class="form-check-label text-black" for="edit">Client Details</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.client_details_add == True%}
+                            <input class="form-check-input" type="checkbox" id="client_details_add"  name="client_details_add" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="client_details_add"  name="client_details_add" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Client Details Add</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.client_details_edit == True%}
+                            <input class="form-check-input" type="checkbox" id="client_details_edit"  name="client_details_edit" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="client_details_edit"  name="client_details_edit" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Client Details Edit</label>
+                        </div>
+                        <div class="form-check ">
+                          {%if data.client_details_delete == True%}
+                            <input class="form-check-input" type="checkbox" id="client_details_delete"  name="client_details_delete" value="true" checked>
+                            {%else%}
+                            <input class="form-check-input" type="checkbox" id="client_details_delete"  name="client_details_delete" value="true">
+                            {%endif%}
+                            <label class="form-check-label text-black" for="write">Client Details Delete</label>
+                        </div>
+                      <br>
+                        <div class="form-group ">
+                        <input type="submit" class="btn btn-info">
+                        </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade active show" id="change_password_{{data.id}}" role="tabpanel" aria-labelledby="profile-tab">
+                    <br>
+                    <form action="{{url_for('client_blueprint.update_password')}}" method='POST'>
+                      <input type="hidden" name="id" value="{{data.id}}">
+                        <div class="form-group col-lg-8">
+                          <input type="text" class="form-control" name="password" placeholder="New Password" required>
+                        </div>
+                        <div class="form-group col-lg-5">
+                          <input type="submit" class="btn btn-info">
+                        </div>
+                    </form>
+                  </div>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <input type="submit" class="btn btn-info">
+            </div> -->
+          </div>
+        </div>
+      </div>
+         {%endfor%}
+
+
+      </tbody>
+
+    </table>
+  </div>
+  </div>
+
+
+
+                    </div>
+
+
+
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+        <!--     <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        });
+    });
+
+    var table = $('#example').DataTable( {
+        orderCellsTop: true,
+        fixedHeader: true,
+          fixedColumns: true,
+          responsive: true,
+         autoWidth: false,
+
+
+    });
+
+     $( "#example_wrapper" ).prepend( $( ".navbar" ) );
+
+    $( ".navbar, .dataTables_length, #example_filter" ).wrapAll( "<div class='topSticky'></div>" );
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    $( ".dataTables_info, #example_paginate" ).wrapAll( "<div class='bottomPagingation'></div>" );
+
+    var wnHeight = $(window).height();
+    console.log(wnHeight,'wnHeight');
+    addHeight = wnHeight - 130;
+    console.log(addHeight,'addHeight');
+    $('.table-responsive').css('height',addHeight);
+
+  });
+
+
+
+</script>
+</body>
+
+</html>

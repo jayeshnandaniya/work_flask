@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container">
+
+
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">Edit Form</h1>
+
+                    </div>
+
+
+             <div class="row justify-content-center d-flex">
+                <div class="col-md-11">
+
+                 <form action="{{ url_for('view_blueprint.update') }}" method="post" enctype="multipart/form-data">
+                      <div class="row form-main">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="hidden" name="id" value="{{details.id}}">
+                              <label for="exampleInputEmail1">Strategy Name</label>
+                              <input class="form-control" name="strategy_name" value="{{details.strategy_name}}" placeholder="Strategy Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Account Number</label>
+                              <input type="number" class="form-control" name="account_number" placeholder="Account Number" value="{{details.account_number}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Account Name</label>
+                              <input class="form-control" name="account_name" placeholder="Account Name" value="{{details.account_name}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input class="form-control" name="password" placeholder="Password" value="{{details.password}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Capital</label>
+                              <input class="form-control" name="capital" placeholder="Capital" value="{{details.capital}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Broker Name</label>
+                              <input class="form-control" name="broker_name" value="{{details.broker_name}}" placeholder="Broker Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Server</label>
+                              <input class="form-control" name="server" value="{{details.server}}" placeholder="Server">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Investor</label>
+                              <input class="form-control" name="investor" value="{{details.investor}}" placeholder="Investor">
+                            </div>
+                            <div class="form-group" >
+                              <label for="exampleInputPassword1">Strategy Date</label>
+                              {%if details.strategy_date == None%}
+                                <input type="date" class="form-control" name="strategy_date" value="" placeholder="">
+                              {%else%}
+                                <input type="date" class="form-control" name="strategy_date" value="{{details.strategy_date.strftime('%Y-%m-%d')}}" placeholder="{{details.strategy_date}}">
+                              {%endif%}
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Profitable</label>
+                              <select class="custom-select" name="profitable">
+                                  {%if details.profitable == True%}
+                                    <option value="True" selected>True</option>
+                                    <option value="False">False</option>
+                                  {%else%}
+                                    <option value="False" selected>False</option>
+                                    <option value="True">True</option>
+                                  {%endif%}
+                              </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Profitable Category</label>
+                            <select class="custom-select" name="profitable_category" >
+                                <option value="{{ details.profitable_category }}">{{ details.profitable_category }}</option>
+                                <option value="Thanos">Thanos</option>
+                                <option value="100 % ROI">100 % ROI</option>
+                                <option value="AVENGER">AVENGER</option>
+                                <option value="AntMan">AntMan</option>
+                                <option value="Loki">Loki</option>
+                                <option value="No Trades">No Trades</option>
+                            </select>
+                        </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Note</label>
+                            <textarea type="note" rows="4" class="form-control"  name="note">{{details.note}}</textarea>
+                          </div>
+
+
+
+                        </div>
+                         <div class="col-md-6">
+                           <div class="form-group">
+                             <label for="exampleInputPassword1">Live Streaming</label>
+                             <input class="form-control" value="{{details.live_streaming}}" name="live_streaming" placeholder="Live Streaming">
+                           </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Location</label>
+                              <input class="form-control" name="location" value="{{details.location}}" placeholder="Location">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Type</label>
+                              <input class="form-control" name="type" value="{{details.type}}" placeholder="Type">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Maximum Lot</label>
+                              <input class="form-control" name="max_lot" value="{{details.max_lot}}" placeholder="Maximum Lot">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Max M2M</label>
+                              <input type="number" class="form-control" name="max_m2m" value="{{details.max_m2m}}" placeholder="Max M2m">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Working Live</label>
+                              <input class="form-control" name="working_live" value="{{details.working_live}}" placeholder="Working Live">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Telegram Channel</label>
+                              <input class="form-control" value="{{details.telegram_channel}}" name="telegram_channel" placeholder="Telegram Channel">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Script</label>
+                              <input class="form-control" name="script" placeholder="script" value="{{details.script}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Time Frame</label>
+                              <input class="form-control" name="timestamp" placeholder="timestamp" value="{{details.timestamp}}">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Data Folder</label>
+                              <input class="form-control" type="file" name="zip_file">
+                            </div>
+
+                          </div>
+                        </div>
+                         <div class="row mb-3">
+                        <div class="col-md-6">
+
+                        </div>
+
+                        <div class="col-md-6 text-right">
+                          <button type="submit" class="btn btn-primary mt-3">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                        </div>
+
+                      </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+
+    <!-- Bootstrap core JavaScript-->
+
+</body>
+
+</html>

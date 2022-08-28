@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+     <style type="text/css">
+
+        .row.acces-detal label {
+            font-size: 14px;
+        }
+        .row.acces-detal {
+            justify-content: space-between;
+        }
+        .row.acces-detal.strategy {
+            padding-bottom: 13px;
+            border-bottom: 1px solid #77777945;
+            margin-bottom: 13px;
+        }
+        .row.acces-detal.client {
+            margin-right: 0px;
+        }
+        .submit-btn-row {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                  {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                <ul class=flashes>
+                {% for category, message in messages %}
+                <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+                {% endfor %}
+                </ul>
+                {% endif %}
+                {% endwith %}
+
+
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">Add New User</h1>
+
+                    </div>
+
+
+                           <div class="row d-flex justify-content-center">
+                            <div class="col-md-7">
+                                  <form class="add-new-user mt-5" action="{{url_for('view_blueprint.add_user')}}" method="post">
+                                    <div id="error"></div>
+                                    <div class="row">
+
+                                            <div class="col-md-6">
+                                                <div class="form-group row">
+                                                  <input type="text" class="form-control  mr-2 form-control-user" name="username" id="username"
+                                                placeholder="Username">
+                                                </div>
+
+                                                <div class="form-group row">
+                                                  <input type="email" name="user_email" class="form-control  mr-2 form-control-user" id="InputEmail"  placeholder="Email Address">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6">
+
+                                                <div class="form-group row">
+                                                     <input type="password" name="InputPassword" class="form-control form-control-user"
+                                                id="InputPassword" placeholder="Password">
+                                                </div>
+                                                <div class="form-group row">
+                                                    <input type="password" name="" class="form-control form-control-user"
+                                                id="RepeatPassword" name="RepeatPassword" placeholder="Confirm Password">
+
+                                                </div>
+
+                                            </div>
+
+                                    </div>
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group row">
+                                               <label for="users-rights" class="text-white">User access</label>
+
+                                            </div>
+
+                                           <div class="row acces-detal strategy">
+                                             <div class="form-check form-check-inline">
+                                                  <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details" value="true" >
+                                                    <label class="form-check-label text-white" for="write">Strategy Details</label>
+                                             </div>
+
+                                              <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details_add" value="true" >
+                                                <label class="form-check-label text-white" for="write">Strategy Details Add</label>
+                                               </div>
+
+                                                <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details_edit" value="true" >
+                                                <label class="form-check-label text-white" for="write">Strategy Details Edit</label>
+                                                </div>
+
+                                                 <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="checkbox" id="strategy_details"  name="strategy_details_delete" value="true" >
+                                                        <label class="form-check-label text-white" for="write">Strategy Details delete</label>
+                                                 </div>
+                                         </div>
+                                         <div class="row acces-detal client">
+
+                                              <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="checkbox" id="client_details" name="client_details" value="true" >
+                                                        <label class="form-check-label text-white" for="edit">Client Details</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                      <input class="form-check-input" type="checkbox" id="client_details" name="client_details_add" value="true" >
+                                                      <label class="form-check-label text-white" for="edit">Client Details Add</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="client_details" name="client_details_edit" value="true" >
+                                                    <label class="form-check-label text-white" for="edit">Client Details Edit</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                  <input class="form-check-input" type="checkbox" id="client_details" name="client_details_delete" value="true" >
+                                                  <label class="form-check-label text-white" for="edit">Client Details Delete</label>
+                                              </div>
+                                        </div>
+
+                                        </div>
+
+                                            <div class="col-md-6">
+
+
+                                            </div>
+
+                                    </div>
+
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+
+                                            </div>
+
+                                            <div class="col-md-6 text-right">
+                                              <button type="submit" id="submitUser" class="btn btn-primary mt-3 new-user-add">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                                            </div>
+
+                                          </div>
+
+                                            </form>
+
+                                    </div>
+                </div>
+
+
+                            </div>
+
+                        </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+
+
+
+</body>
+
+</html>

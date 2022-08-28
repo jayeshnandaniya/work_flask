@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Forex Trading - Dashboard</title>
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container">
+
+
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">View Details</h1>
+
+                    </div>
+
+
+               <div class="row d-flex justify-content-center table-view-details " >
+                  <div class="col-md-5 d-flex justify-content-center">
+                   <table class="table tablenew" >
+
+                            <tr>
+
+                                <th >CRN</th>
+                                <td>{{client.crn}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Company</th>
+                                <td>{{client.company}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Capital</th>
+                                <td>{{client.capital}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Capital Profit</th>
+                                <td>{{client.capital_profit}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Status</th>
+                                {%if client.status == True%}
+                                  <td>Active</td>
+                                {%else%}
+                                  <td>Inactive</td>
+                                {%endif%}
+
+                            </tr>
+                            <tr>
+                               <th>Creation Date</th>
+                               <td>{{client.date_created.strftime('%d-%m-%Y %H:%M:%S')}}<br>
+                               {{(today - client.date_created).days }} Days Old</td>
+                           </tr>
+                            <tr>
+                              <th>Updated Date</th>
+                              {% if client.date_updated == None %}
+                              <td></td>
+                              {% else %}
+                              <td>{{ client.date_updated.strftime('%d-%m-%Y %H:%M:%S') }} <br>
+                              Before {{(today - client.date_updated).days }} Days</td>
+                              {% endif %}
+                           </tr>
+                             <tr>
+
+                                <th>Note</th>
+                                <td style=" white-space: pre-wrap;">{{client.note}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Profit Date</th>
+                                {% if client.profit_date == None %}
+                                <td></td>
+                                {% else %}
+                                <td>{{ client.profit_date.strftime('%d-%m-%Y %H:%M:%S') }} <br>
+                                Before {{(today - client.profit_date).days }} Days</td>
+                                {% endif %}
+
+                            </tr>
+                            <tr>
+
+                                <th>File Upload Date</th>
+                                {% if client.upload_date == None %}
+                                <td></td>
+                                {% else %}
+                                <td>{{ client.upload_date.strftime('%d-%m-%Y %H:%M:%S') }} <br>
+                                Before {{(today - client.upload_date).days }} Days</td>
+                                {% endif %}
+
+                            </tr>
+
+                        </table>
+
+                        </div>
+                        <div class="col-md-7">
+                            <table class="table-responsive table" >
+
+
+                            <tr>
+                               <th>Client Info</th>
+                               <td style=" white-space: pre-wrap;">{{client.data}}</td>
+                           </tr>
+
+                           <tr>
+                              <th>Trading Info</th>
+                              <td style=" white-space: pre-wrap;">{{client.trading_info}}</td>
+                          </tr>
+
+
+
+
+                        </table>
+
+                        </div>
+                    </div>
+
+
+                    </div>
+
+
+
+
+
+
+        <!-- End of Content Wrapper -->
+
+
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

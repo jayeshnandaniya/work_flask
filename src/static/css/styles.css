@@ -1,0 +1,307 @@
+form.add-new-user.mt-5 {
+     padding: 21px 26px 5px;
+     border: 1px solid;
+     border-radius: 6px;
+}
+ ul#accordionSidebar{
+     background-color: #000 !important;
+     z-index: 9;
+}
+ .sidebar.toggled .nav-item .nav-link span {
+     font-size: 0.8rem;
+     display: block;
+     color: #fff;
+}
+ .row.form-main {
+     border: 1px solid #ddd;
+     padding: 10px;
+     border-radius: 5px;
+}
+ .bg-light {
+     background: linear-gradient(45deg, #6c757d, #343a40);
+}
+ .row.form-main {
+     background: #232a31b0;
+}
+ span.plus_sign {
+     font-size: 20px;
+     font-weight: 600;
+}
+ .form-group label {
+     color: #fff;
+     font-family: inherit;
+}
+ label.custom-file-label {
+     color: #333 !important;
+}
+ .row.form-main {
+    /* border: 1px solid #ddd;
+     */
+     padding: 10px;
+     border-radius: 5px;
+     box-shadow: 0px 1px 3px 1px #fff;
+}
+ .form-group input {
+     border: 2px solid #00aeef;
+}
+ button.btn.btn-primary:hover, a.btn.btn-outline-primary:hover {
+     background-color: #00AEEF;
+}
+ button#add_another_button {
+     border-radius: 18px;
+     background-color: #00AEEF !important;
+}
+ button[type='submit'], a.btn.btn-outline-primary {
+     background-color: transparent;
+     border: none;
+     color: white;
+     padding: 10px 60px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 16px 0px 10px 0;
+     cursor: pointer;
+     border-radius: 50px;
+     border: 2px solid #00aeef;
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+}
+ .custom-select, .custom-file-label{
+     border: 1px solid #00AEEF;
+}
+ div#example_filter input {
+     margin-left: 10px;
+}
+ nav.navbar.navbar-expand-lg.navbar-light {
+     display: inline-block;
+     position: relative;
+     bottom: 2px;
+     padding: 2px 15px 2px 1px;
+     margin-top: 5px;
+     float: left;
+}
+ .navbar-light .navbar-nav .nav-link {
+     padding: 10px 15px;
+    /*border: 1px solid #ddd;
+    */
+     border-radius: 4px;
+     color: #333;
+     font-size: 16px;
+}
+ .topSticky {
+     position: fixed;
+     width: 100%;
+     right: 0px;
+     left: 0px;
+     background-color: #fff;
+     padding: 5px 25px;
+     top: 0px;
+     font-size: 16px;
+     margin-left: 80px;
+     width: 96%;
+}
+ a.navbar-brand.ml-10.home-link {
+    /*margin-left: 20px;
+    */
+     padding: 10px 20px;
+     background: #198496 !important;
+     font-size: 16px;
+    /* border: 1px solid #fff;
+    */
+     border-radius: 3px;
+     color: #fff;
+     font-weight: 800;
+     ​
+}
+ div#example_filter {
+     padding-top: 11px;
+}
+ table#example {
+     margin-top: 76px;
+}
+ .topSticky nav {
+     margin-bottom: 0px !important;
+}
+ div#example_length {
+     padding: 6px 21px;
+     border: 1px solid #ddd;
+     border-radius: 3px;
+     margin-top: 5px;
+}
+ table.dataTable thead th{
+     padding: 8px 10px !important;
+     vertical-align: middle !important;
+     font-size: 18px;
+    /* background-color: #007bff;
+    */
+     color: #fff;
+}
+ tfoot input {
+     border: 1px solid #ddd;
+     padding: 3px 6px;
+     font-size: 15px;
+     width: 140px;
+     border-radius: 3px;
+}
+ tfoot {
+     background: #5a5c69;
+}
+ .container-fluid {
+     padding: 1px;
+     margin: 0;
+}
+ th.profitable.sorting {
+     width: 125px !important;
+}
+ .table-striped tbody tr:nth-of-type(odd) {
+     color: #fff !important;
+     font-size: 17px;
+}
+ ​ .tablenew {
+     margin-left: 4rem!important;
+}
+ table.dataTable thead {
+     background-image:linear-gradient(#212529, #6e707e);
+}
+ table.dataTable tbody tr {
+     background-color: rgba(0,0,0,.05);
+}
+ table.dataTable tbody tr td{
+     width: 150px;
+}
+ table.dataTable tbody td{
+     padding: 3px 33px;
+     vertical-align: middle;
+}
+ tr.even td {
+     color: #fff !important;
+     font-size: 17px;
+}
+ div#example_length label {
+     margin-bottom: 0px;
+}
+ .table-responsive {
+    /* height: 585px;
+    */
+     overflow: auto;
+}
+ .bottomPagingation {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     background: #fff;
+     border-top: 1px solid #ddd;
+     padding: 10px 0px;
+     right: 0;
+     width: 93%;
+}
+ div#example_info {
+     padding-left: 20px;
+     font-size: 16px;
+}
+ div#example_paginate {
+     padding-right: 15px;
+     font-size: 16px;
+     color: #333;
+}
+ i.fa.fa-trash {
+     color: red;
+}
+ i.fa.fa-pencil {
+     color: green;
+}
+ i.fa.fa-picture-o {
+     color: darkblue;
+}
+ i.fa.fa-file-text-o {
+     color: firebrick;
+     font-weight: 700;
+}
+ table.dataTable tbody tr td:last-child {
+     padding: 1px 10px;
+}
+ table.dataTable tbody tr td a {
+     padding-right: 6px;
+     padding-left: 6px;
+}
+/* width */
+ ::-webkit-scrollbar {
+     width: 20px;
+}
+ ​
+/* Track */
+ ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 5px grey;
+     border-radius: 10px;
+}
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+     background: #18899b;
+     border-radius: 10px;
+}
+ ​
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background: rgb(0 123 255 / 25%);
+}
+ .table-view-details table td, .table-view-details table th{
+     color: #fff;
+     border-right: 1px solid #fff;
+}
+ .table-view-details table th{
+     font-weight: bold;
+}
+ .table-view-details table tbody{
+     border: 1px solid;
+}
+ td.setting-img-edit {
+     width: 56%;
+}
+ .table-view-details th {
+     width: 55%;
+}
+​ .custom-file-label{
+     right: 10px;
+     left: 15px;
+}
+.table-view-details th {
+    width: 140px;
+    background-color: #2d3344;
+}
+.table-view-details td {
+    width: auto;
+}
+.setting-img-wrap {
+    width: 250px;
+}
+.document-dialog {
+    max-width: 100% !important;
+}
+.pdf-iframe{
+    height: 80vh;
+     border: 1px solid;
+    border-radius: 5px;
+}
+div#PdfImageView {
+    padding-left: 20px;
+}
+img.images-at-tight {
+    width: 100%;
+    border-radius: 4px;
+}
+.document-header {
+    padding: 10px 15px;
+}
+.document-header h3 {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.document-close {
+    font-size: 30px;
+    font-weight: 900;
+}
+div#error {
+    padding: 5px 0px;
+    color: #ff8181;
+}

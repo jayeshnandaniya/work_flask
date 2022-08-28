@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">Edit Setting Image</h1>
+
+                    </div>
+
+
+                    <div class="row d-flex justify-content-center">
+
+                    <form action="{{ url_for('view_blueprint.update_setting_img') }}" method="post" enctype="multipart/form-data">
+
+                      <div class="row form-main">
+                        <div class="col-md-12">
+
+
+                             <div class="form-group ">
+                                <label for="exampleUploadFile">Setting Image</label>
+                                <input type="hidden" name="id" value="{{ id }}">
+                                <input type="hidden" name="img_index" value="{{ img_index }}">
+
+                                  <div class="row">
+                                  <div class="col mr-3">
+                                      <input type="file" class="custom-file-input" value="{{images}}" name="image" accept="image/*" id="sources-0-img_file">
+                                      <label class="custom-file-label" for="sources-0-img_file">Upload Image</label>
+                                      <img src="{{url_for('static',filename = '/setting_img/')}}{{images}}" width="100" height="100" class="img-thumbnail mt-3">
+                                  </div>
+                                  <div class="">
+                                      <button type="button" class="btn btn-danger float-right delete_button" name="sources-0-delete_source"><i class="fa fa-trash-o"></i></button>
+
+
+                                  </div>
+                                  </div>
+                              </div>
+
+
+                            </div>
+
+                          </div>
+                           <div class="row mb-3">
+                          <div class="col-md-6">
+
+                          </div>
+
+                          <div class="col-md-6 text-right">
+                            <button type="submit" class="btn btn-primary mt-3">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                          </div>
+
+                          </div>
+
+                    </form>
+
+
+                    </div>
+
+
+
+            </div>
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+
+    <script type="text/javascript">
+  $(document).ready(function() {
+     $('#sources-0-img_file').on('change',function(){
+        //get the file name
+        var fileName = $(this).val();
+        //replace the "Choose a file" label
+        var cleanFileName = fileName.replace('C:\\fakepath\\', "");
+        $(this).next('.custom-file-label').html(cleanFileName);
+    })
+    $('#sources-0-pdf_file').on('change',function(){
+        //get the file name
+        var fileName = $(this).val();
+        //replace the "Choose a file" label
+        var cleanFileName = fileName.replace('C:\\fakepath\\', "");
+        $(this).next('.custom-file-label').html(cleanFileName);
+
+    });
+});
+    </script>
+</body>
+
+</html>

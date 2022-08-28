@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">Edit Client</h1>
+      <!--                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                    </div>
+
+
+                    <!-- Content Row -->
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-10">
+                        <form action="{{ url_for('client_blueprint.update_client') }}" class="add_new_data" method="post" enctype="multipart/form-data">
+                          <input type="hidden" name="id" value="{{client.id}}">
+                          {%set ls = ['FOREXTRADE1','FLASHTRADE1','ROBOTRADE1','CRYPTOTRADE1']%}
+                          <div class="row form-main">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">CRN</label>
+                                  <input class="form-control" value="{{client.crn}}" name="crn" placeholder="CRN">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Company</label>
+                                  <select class="custom-select" name="company">
+                                    {%for name in ls%}
+                                      {%if client.company == name%}
+                                        <option value="{{client.company}}" selected>{{client.company}}</option>
+                                      {%else%}
+                                        <option value="{{name}}">{{name}}</option>
+                                      {%endif%}
+                                    {%endfor%}
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Capital</label>
+                                <input class="form-control" value="{{client.capital}}" name="capital" placeholder="Capital">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Status</label>
+                                <select class="custom-select" name="status">
+                                    {%if client.status == True%}
+                                      <option value="True" selected>Active</option>
+                                      <option value="False">Inactive</option>
+                                    {%else%}
+                                      <option value="False" selected>Inactive</option>
+                                      <option value="True">Active</option>
+                                    {%endif%}
+                                </select>
+                            </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Capital Profit</label>
+                                <input class="form-control" value="{{client.capital_profit}}" name="capital_profit" placeholder="Capital Profit">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Note</label>
+                                <textarea type="note" rows="5"class="form-control" placeholder="Note" name="note">{{client.note}}</textarea>
+                              </div>
+
+                            </div>
+                             <div class="col-md-6">
+                               <div class="form-group">
+                                 <label for="exampleInputPassword1">Data</label>
+                                 <textarea type="note" rows="10"class="form-control" placeholder="Data" name="data">{{client.data}}</textarea>
+                               </div>
+                               <div class="form-group">
+                                 <label for="exampleInputPassword1">Trading Info</label>
+                                 <textarea type="note" rows="10"class="form-control" placeholder="Trading Info" name="trading_info">{{client.trading_info}}</textarea>
+                               </div>
+
+                        <!--
+                               <div class="form-group">
+                                  <label for="exampleUploadFile">Upload File</label>
+                                    <div class="row">
+                                    <div class="col mr-2">
+                                      <input type="file" class="custom-file-input" name="back_test_report" accept= ""id="customFile" >
+                                      <label class="custom-file-label" for="customFile">Upload Back Test Report</label>
+                                    </div>
+                                   <div class="col mr-3">
+                                        <input type="file" class="custom-file-input" name="image" accept="image/*" id="customImage">
+                                        <label class="custom-file-label" for="customFile">Upload Image</label>
+                                    </div>
+                                </div>
+                                </div> -->
+
+                              </div>
+                            </div>
+                             <div class="row mb-3">
+                            <div class="col-md-6">
+
+                            </div>
+
+                            <div class="col-md-6 text-right">
+                              <button type="submit" class="btn btn-primary mt-3">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+
+                          </div>
+
+                </form>
+              </div>
+
+
+
+
+                  </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+
+    <!-- Bootstrap core JavaScript-->
+
+
+
+</body>
+
+</html>

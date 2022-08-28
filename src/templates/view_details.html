@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container">
+
+
+                  {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                    <ul class=flashes>
+                    {% for category, message in messages %}
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                      {{ message }}
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
+                  {% endwith %}
+
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">View Details</h1>
+
+                    </div>
+
+
+               <div class="row d-flex justify-content-center table-view-details">
+                  <div class="col-md-5 d-flex justify-content-center">
+                   <table class="table tablenew" >
+                            <tr>
+
+                                <th >Strategy Name</th>
+                                <td>{{details.strategy_name}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Acc Name</th>
+                                <td>{{details.account_name}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Password</th>
+                                <td>{{details.password}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Capital</th>
+                                <td>{{details.capital}}</td>
+
+                            </tr>
+                            <tr>
+
+                                <th>Acc No</th>
+                                <td>{{details.account_number}}</td>
+
+                            </tr>
+                             <tr>
+
+                                <th>Broker Name</th>
+                                <td>{{details.broker_name}}</td>
+
+                            </tr>
+                             <tr>
+                                <th>Server</th>
+                                <td>{{details.server}}</td>
+                            </tr>
+                             <tr>
+                                <th>Investor</th>
+                                <td>{{details.investor}}</td>
+                            </tr>
+                            <tr>
+                                <th>Profitable</th>
+                                <td>{{details.profitable}}</td>
+                            </tr>
+                             <tr>
+                                <th>Location</th>
+                                <td>{{details.location}}</td>
+                            </tr>
+                             <tr>
+                                <th>Type</th>
+                                <td>{{details.type}}</td>
+                            </tr>
+
+                              <tr>
+                                <th>Max Lot</th>
+                                <td>{{details.max_lot}}</td>
+                            </tr>
+                             <tr>
+                                <th>Max M2M</th>
+                                <td>{{details.max_m2m}}</td>
+                            </tr>
+                            <tr>
+                               <th>Script</th>
+                               <td>{{details.script}}</td>
+                           </tr>
+                           <tr>
+                              <th>Time Frame</th>
+                              <td>{{details.timestamp}}</td>
+                          </tr>
+
+                        </table>
+
+                        </div>
+                        <div class="col-md-7">
+                            <table class="table-responsive table">
+
+
+                             <tr>
+                                <th>Working Live</th>
+                                <td>{{details.working_live}}</td>
+                            </tr>
+                             <tr>
+                                <th>Live Streaming</th>
+                                <td>{{details.live_streaming}}</td>
+                            </tr>
+                             <tr>
+                                <th>Telegram Channel</th>
+                                <td>{{details.telegram_channel}}</td>
+                            </tr>
+                            <tr>
+                               <th>Note</th>
+                               <td>{{details.note}}</td>
+                           </tr>
+
+                             <tr>
+                                <th>Strategy Date</th>
+                                {% if details.strategy_date == None %}
+                                <td></td>
+                                {% else %}
+                                <td>{{ details.strategy_date.strftime('%d-%m-%Y') }} <br>
+                                {{ (today - details.strategy_date).days }} Days Old</td>
+                                {% endif %}
+                            </tr>
+
+                             <tr>
+                                <th>Setting Images</th>
+                                <td class="setting-img-edit">
+                                {% for img in details.setting_img%}
+                                <div class="setting-img-wrap d-flex justify-content-between pr-2 align-items-center border border-dark">
+                                    <a  href="" data-toggle="modal" data-target="#exampleModalCenter{{loop.index}}">  <img src="{{url_for('static',filename='setting_img/')}}{{img}}" width="50px" height="auto"></a>
+                                    {%if user.strategy_details_edit == True%}
+                                      <span>
+                                          <a href="{{url_for('view_blueprint.edit_setting_img', id=details.id, img_index=loop.index)}}" class="badge badge-light">
+                                              <i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                      </span>
+                                    {%endif%}
+                                    {%if user.strategy_details_delete == True%}
+                                      <span>
+                                          <a href="{{url_for('view_blueprint.delete_setting_img',id=details.id, img_index=loop.index)}}" class="badge badge-light">
+                                              <i class="fa fa-trash" aria-hidden="true"></i>
+                                          </a>
+
+                                      </span>
+                                    {%endif%}
+                                  </div>
+
+                                  <div class="modal fade bd-example-modal-lg" id="exampleModalCenter{{loop.index}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="{{url_for('static',filename='setting_img/')}}{{img}}" width="760px" height="auto">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                {%endfor%}
+                                {%if user.strategy_details_add == True%}
+                                  <div class="add-new-img-doc text-right mt-2">
+                                          <a href="{{url_for('view_blueprint.new_setting_img',id=details.id)}}" id="add_new_img" class="btn btn-primary">Add <i class="fa fa-plus" aria-hidden="true"></i></a>
+
+                                      </div>
+                                {%endif%}
+
+                                </td>
+                              </tr>
+
+                             <tr>
+                                <th>Document & Images </th>
+                                <td class="setting-img-edit">
+                                  {%for file in files%}
+                                    <input type="hidden" name="id" value="{{ file.id }}">
+                                    <div class="setting-img-wrap d-flex justify-content-between pr-2 align-items-center border border-dark">
+                                       <span class="imges_of_docx  pr-2">
+                                         <img src="{{url_for('static',filename='images/')}}{{file.image_url}}" width="50px" height="auto">
+                                       </span>
+                                        <span class="docx_of_images  pr-3">
+                                          <i class="fas fa-file-alt"aria-hidden="true"></i>
+                                        </span>
+                                           <span class=" pr-2">
+                                           <a href="" data-toggle="modal" data-target="#ModalCenter{{loop.index}}"class="view_docx_img badge badge-light">
+                                           <i class="fa fa-eye" aria-hidden="true"></i>
+                                           </a>
+                                       </span>
+                                       {%if user.strategy_details_edit == True%}
+                                         <span class=" pr-2">
+                                             <a href="{{url_for('view_blueprint.edit_files', id=file.id)}}" class="badge badge-light">
+                                             <i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                         </span>
+                                       {%endif%}
+                                       {%if user.strategy_details_delete == True%}
+                                         <span class=" pr-2">
+                                             <a href="{{url_for('view_blueprint.delete_files', id=file.id, strategy_id=details.id)}}" class="badge badge-light">
+                                             <i class="fa fa-trash" aria-hidden="true"></i>
+                                             </a>
+                                         </span>
+                                      {%endif%}
+                                       <div class="modal fade" id="ModalCenter{{loop.index}}" tabindex="1" role="dialog" aria-labelledby="PdfImageView"
+                                           aria-hidden="true">
+                                           <div class="modal-dialog document-dialog" role="document">
+                                               <div class="modal-content">
+                                                   <div class="modal-header document-header">
+                                                      <h3>Document & Images</h3>
+                                                       <button class="close document-close" type="button" data-dismiss="modal" aria-label="Close">
+                                                           <span aria-hidden="true">×</span>
+                                                       </button>
+
+                                                   </div>
+                                                   <div class="modal-body">
+                                                       <div class="row">
+                                                       <div class="col-md-6">
+                                                       <iframe class="pdf-iframe" src="{{url_for('static',filename='back_test_reports/')}}{{file.doc_url}}" width="100%" height="auto">
+
+                                                       </iframe>
+                                                       </div>
+                                                       <div class="col-md-6">
+                                                               <img src="{{url_for('static',filename='images/')}}{{file.image_url}}" class="images-at-tight">
+                                                       </div>
+                                                       </div>
+
+                                                   </div>
+
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+                                   </div>
+
+
+                                    </div>
+                                    {%endfor%}
+                                    {%if user.strategy_details_add == True%}
+                                      <div class="add-new-img-doc text-right mt-2">
+                                          <a href="{{url_for('view_blueprint.new_files',id=details.id)}}" id="add_new_img" class="btn btn-primary">Add <i class="fa fa-plus" aria-hidden="true"></i></a>
+
+                                      </div>
+                                    {%endif%}
+
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                              <th>Data Folder</th>
+                              <td>
+                                {% if details.data_folder %}
+                                  <a href="#" data-toggle="modal" data-target="#exampleModal">download zip file</a>
+                                {% endif %}
+                              </td>
+                            </tr>
+
+
+                        </table>
+
+                        </div>
+                    </div>
+
+
+                    </div>
+
+
+
+            </div>
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="{{url_for('view_blueprint.logout')}}">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Enter Password</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form action="{{ url_for('view_blueprint.download') }}" method="post">
+            <div class="modal-body">
+              <input type="password" name="password" placeholder="Password" required>
+              <input type="hidden" name="strategy_id" value="{{ details.id  }}">
+              <input type="hidden" name="filename" value="{{ details.data_folder }}">
+            </div>
+            <div class="modal-footer">
+              <input type="submit" name="submit" class="btn btn-dark">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container">
+
+
+                    <div class="text-center  mb-4">
+                        <h1 class="h3 mb-0 text-white">Add new settings Images</h1>
+
+                    </div>
+
+
+                    <div class="row d-flex justify-content-center">
+
+               <form action="{{ url_for('view_blueprint.add_setting_img') }}" method="post" enctype="multipart/form-data" class="pr-5 pl-5">
+                 <input type="hidden" name="id" value="{{id}}">
+                      <div class="row form-main">
+
+                        <div class="col-md-12">
+
+
+
+                           <div class="form-group upload-section">
+                                   <label for="exampleUploadFile">Upload Image</label>
+                                     <div class="row">
+
+                                     <div class="col mr-3">
+                                         <input type="file" class="custom-file-input" value="" name="sources-0-img_file" accept="image/*" id="sources-0-img_file">
+                                         <label class="custom-file-label" for="sources-0-img_file">Upload Image</label>
+                                     </div>
+                                       <div class="">
+                                            <button type="button" class="btn btn-danger float-right delete_button" name="sources-0-delete_source"><i class="fa fa-trash-o"></i></button>
+
+
+                                        </div>
+                                     </div>
+                             </div>
+                                   <div class="form-group text-right">
+                              <button type="button" id="add_another_button" class="btn btn-primary">Add <i class="fa fa-plus" aria-hidden="true"></i></button>
+
+                            </div>
+                       </div>
+
+                     </div>
+
+
+                           <div class="row mb-3">
+                              <div class="col-md-6">
+
+                              </div>
+
+                            <div class="col-md-6 text-right">
+                              <button type="submit" class="btn btn-primary mt-3">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+
+                          </div>
+
+                    </form>
+
+                    </div>
+
+
+
+            </div>
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forex Trading - Dashboard</title>
+    <style type="text/css">
+      div#myInputautocomplete-list {
+          background: #fff;
+        padding-left: 13px;
+        margin-left: 2px;
+        margin-right: 1px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 5px;
+        border-bottom: 1px solid;
+        padding-top: 6px;
+        padding-bottom: 10px;
+         border-left: 1px solid #00aeef;
+        border-right: 1px solid #00aeef;
+            border-bottom: 1px solid #00aeef
+    }
+    div#myInputautocomplete-list >div {
+        padding-bottom: 4px;
+        cursor: pointer;
+        color: #333;
+    }
+    div#myInputautocomplete-list >div:hover {
+        color: #00aeef;
+    }
+    </style>
+
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    {%include 'layout.html'%}
+
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                  {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                <ul class=flashes>
+                {% for category, message in messages %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+                {% endfor %}
+                </ul>
+                {% endif %}
+                {% endwith %}
+
+
+
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between ml-5 mb-4">
+                        <h1 class="h3 mb-0 text-white">Add New Strategy</h1>
+      <!--                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+                    </div>
+
+
+                    <!-- Content Row -->
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-10">
+                        <form id="signupform" action="{{ url_for('view_blueprint.add') }}" class="add_new_data" method="post" autocomplete="off" enctype="multipart/form-data">
+
+                          <div class="row form-main">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Strategy Name</label>
+                                  <input class="form-control" name="strategy_name" placeholder="Strategy Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Account Number</label>
+                                  <input id="account" type="number" class="form-control" name="account_number" placeholder="Account Number" required>
+                                  <div id="msg"></div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Account Name</label>
+                                  <input class="form-control" name="account_name" placeholder="Account Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Password</label>
+                                  <input class="form-control" name="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Capital</label>
+                                  <input class="form-control" name="capital" placeholder="Capital">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Broker Name</label>
+                                  <input class="form-control" name="broker_name" placeholder="Broker Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Server</label>
+                                  <input class="form-control" name="server" placeholder="Server">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Investor</label>
+                                  <input class="form-control" name="investor" placeholder="Investor">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Live Streaming</label>
+                                  <input class="form-control" name="live_streaming" placeholder="Live Streaming">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Strategy Date</label>
+                                  <input type="date" class="form-control" name="strategy_date">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Profitable</label>
+                                  <select class="custom-select" name="profitable">
+                                    <option disabled selected>Open this select menu</option>
+                                    <option value="True">True</option>
+                                    <option value="False">False</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Profitable Category</label>
+                                <select class="custom-select" name="profitable_category">
+                                  <option disabled selected>Open this select menu</option>
+                                  <option value="Thanos">Thanos</option>
+                                  <option value="100 % ROI">100 % ROI</option>
+                                  <option value="AVENGER">AVENGER</option>
+                                  <option value="AntMan">AntMan</option>
+                                  <option value="Loki">Loki</option>
+                                  <option value="No Trades">No Trades</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Note</label>
+                                <textarea type="note" rows="4"class="form-control" placeholder="Note" name="note"></textarea>
+                              </div>
+
+                            </div>
+                             <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Location</label>
+                                  <input class="form-control" name="location" placeholder="Location">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Type</label>
+                                  <input class="form-control" name="type" placeholder="Type">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Maximum Lot</label>
+                                  <input class="form-control" name="max_lot" placeholder="Maximum Lot">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Max M2M</label>
+                                  <input type="number" class="form-control" name="max_m2m" placeholder="Max M2m">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Working Live</label>
+                                  <input class="form-control" name="working_live" placeholder="Working Live">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Telegram Channel</label>
+                                  <input class="form-control" name="telegram_channel" placeholder="Telegram Channel">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Script</label>
+                                  <input class="form-control" name="script" placeholder="script">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Time Frame</label>
+                                  <input class="form-control" name="timestamp" placeholder="Time Frame">
+                                </div>
+
+                                 <div class="form-group upload-section" >
+                                  <label for="sources-0-source_file">Upload Setting Images</label>
+                                    <div class="row">
+
+                                       <div class="col mr-2">
+                                              <input type="file" class="custom-file-input" name="sources-0-img_file" accept="image/*"  id="sources-0-img_file">
+                                        <label class="custom-file-label" for="sources-0-img_file">Upload Image</label>
+                                        </div>
+                                        <div class="">
+                                            <button type="button" class="btn btn-danger float-right delete_button" name="sources-0-delete_source"><i class="fa fa-trash-o"></i></button>
+
+
+                                        </div>
+                                   </div>
+                                </div>
+
+                                <div class="form-group text-right">
+                                  <button type="button" id="add_another_button" class="btn btn-primary">Add <i class="fa fa-plus" aria-hidden="true"></i></button>
+
+                                </div>
+
+
+                        <!--
+                               <div class="form-group">
+                                  <label for="exampleUploadFile">Upload File</label>
+                                    <div class="row">
+                                    <div class="col mr-2">
+                                      <input type="file" class="custom-file-input" name="back_test_report" accept= ""id="customFile" >
+                                      <label class="custom-file-label" for="customFile">Upload Back Test Report</label>
+                                    </div>
+                                   <div class="col mr-3">
+                                        <input type="file" class="custom-file-input" name="image" accept="image/*" id="customImage">
+                                        <label class="custom-file-label" for="customFile">Upload Image</label>
+                                    </div>
+                                </div>
+                                </div> -->
+
+                              </div>
+                            </div>
+                             <div class="row mb-3">
+                            <div class="col-md-6">
+
+                            </div>
+
+                            <div class="col-md-6 text-right">
+                              <button type="submit" class="btn btn-primary mt-3">&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+
+                          </div>
+
+                </form>
+              </div>
+
+
+
+
+                  </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+
+    <!-- Bootstrap core JavaScript-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+   $("#account").on('input', function(e) {
+    $('#msg').hide();
+    $('#loading').show();
+    {
+     $.ajax({
+      type: "POST",
+      url: "/account_check",
+      data: $('#signupform').serialize(),
+      dataType: "html",
+      cache: false,
+      success: function(msg) {
+      console.log(msg);
+       $('#msg').show();
+       $('#loading').hide();
+       $("#msg").html(msg);
+      },
+      // error: function(jqXHR, textStatus, errorThrown) {
+      //  $('#msg').show();
+      //  $('#loading').hide();
+      //  $("#msg").html(textStatus + " " + errorThrown);
+      // }
+     });
+    }
+   });
+  });
+ </script>
+</body>
+
+</html>

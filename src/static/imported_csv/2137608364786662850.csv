@@ -1,0 +1,669 @@
+"EANAME","ACCNO","ACCNAME","BROKER","SERVER","CAPITAL","PASS","SDATE","LOCATION","TYPE","SCRIPT","TF","NOTE"
+"Algo_TDEA","2090468271","Owain LOY","Tickmill Ltd","Tickmill-DemoUK","0","ZnmbJZdIi1","22-10-2019","B1-U3","Martingle","MultiScript","M30","This is Account which is Starting Trading with 0.6 Lot size "
+"Investor","320009211","Vishal Shrikantrao Aloni","FBS Inc","FBS-Real-12","0","CKrp6L1a","16-9-2021","S6-U10","Martingle","MultiScript","M30","CONNECTED WITH : 2090468271 -Same Lot size "
+"SUNMOON-EURUSD","9395335","Kiera Cook","XM Global Limited","XMGlobal-Demo 2","0","1122S$$&&d","22-9-2021","S6-U10","MARTINGLE","EURUSD","H1","this is sunmoon ea only in eurusd 10k account "
+"SUNMOON-GBPUSD","9395337","Imogen Ingram","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","22-9-2021","S6-U10","MARTINGLE","GBPUSD","H1","THIS IS SUNMOON GBPUSD IN 10k ACCOUNT "
+"SUNMOON EURUSD","9396569","David Sepulveda","XM Global Limited","XMGlobal-Demo 2","100000","1122S$$&&d","22-9-2021","S6--U10","Martingle","EURUSD","H1","SUNMOON EA EURUSD 100k ACCOUNT "
+"SUNMOON GBPUSD ","9396575","Joan Orourke","XM Global Limited","XMGlobal-Demo 2","100000","1122S$$&&d","22-9-2021","S6-U10","Martingle","GBPUSD","H1","SUNMOON EA  GBPUSD 100k ACCOUNT "
+"donchian-scalper-1.0","9212713","wallace baker","XM Global Limited","XMGlobal-Demo 2","10000","1122LLkk","5-8-2020","SLQ-U2(2.2)","Griding","EURUSD,GBPUSD,AUDUSD,USDCAD,USDCHF","M5","Highe Profit,Also Woring in Investor , USDJPY Seprate Account available ,9243612-S9-U7"
+"donchian-scalper 1.0","9395340","Ryan Blackburn","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","22-9-2021","S6-U10","Griding","Multi","M5","Trade is starting with 0.1 -this is master account for Investor "
+"donchian scalper ","9395341","Sophie Daly","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","22-9-2021","S6-U10","Griding","Multi","M5","Trade Start with 0.01- Master Account for Investor "
+"INVESTOR ","320009213","Vishal Shrikantrao Aloni","FBS Inc","FBS-Real-12","0","SvbNQimg","22-9-2021","S6-U10","Griding","Multi","M5","Connected With 9395335 With Same lot size "
+"INVESTOR-MT4","320009214","Vishal Shrikantrao Aloni","FBS Inc","FBS-Real-12","0","d5irHTgf","22-9-2021","S6-U10","Martingle","GBPUSD ","H1","Connected with 9395337 with same lot size "
+"Donchain-IN-MT4","320009216","Vishal Shrikantrao Aloni","FBS Inc","FBS-Real-12","0","0HxOEOvR","22-9-2021","S6-U10","Griding 0.1","Multi","M5","Connected With 9395340 with same lot size (0.1 lot fix )"
+"Donchial-IN-MT4","320009218","Vishal Shrikantrao Aloni","FBS Inc","FBS-Real-12","0","dKl2Mj6l","22-9-2021","S6-U10","Griding 0.01","Multi","M5","Connected With 9395341 with same lot size "
+"BABYSHARK DEMO-SENDER ","10073716","wyatt fleming","FBS Inc","FBS-Demo","100000","FzHIqRB1","27-9-2021","IMAN3","Martingle","EURUSD","H1","THIS IS SENDER ACCOUNT OF BABYSHARK (MM-1) For 18855742 (1ML ACCOUNT )"
+"LT Absolute V2.4","9403065","Mary Steele","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","1-10-2021","S5-U3",,"EURUSD","H1",
+"Adenan Scalping","9403066","David Winter","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","1-10-2021","S5-U3","martingle","EURUSD","H1",
+"Ooare_oa","9403067","Evette Croll","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","1-10-2021","S5-U3",,"EURUSD","H1","https://forexexperttraders.com/"
+"FXBLUE","919021"," ","SuperFin Corp.","SuperForex-Real","500000","1122sr","5-10-2021","S1-U1","Martingle","Multi","NA","FXBLUE -22308875"
+"FXBLUE","919023"," ","SuperFin Corp.","SuperForex-Real","500000","1122sr","5-10-2021","S1-U1","Martingle","Multi","NA","FXBLUE-22308875"
+"FXBLUE","919026"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE- 22308875"
+"FXBLUE","919072"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919076"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919077"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919086"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919097"," ","SuperFin Corp.","SuperForex-Real","50000","1122sr","5-10-2021","S1-U1","Martingle","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919081"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","NA","FXBLUE-22308875-COPY"
+"FXBLUE","919080"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919079"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919078"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919075"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","MARTI","EUR/GBP","COPY","FXBLUE-22308875- COPY"
+"FXBLUE","919074"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919073"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919071"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","Marti","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919070"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U1","MARTI","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"FXBLUE","919069"," ","SuperFin Corp.","SuperForex-Real","49999","1122sr","6-10-2021","S1-U2","MARTI","EUR/GBP","COPY","FXBLUE-22308875-COPY"
+"SV AIDA_V3","9403071","Angel Ordway","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","Marti","EURUSD","M15",
+"AI SCALPER_V3","9403072","Rodney pearson","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","SCALPER ","MULTI","M15",
+"AL-FATIH","9403073","Charlie Trimble","XM Global Limited","XMGlobal-Demo 2","10014","1122s$$&&D","7-10-2021","S5-U3","Marti-Scalper ","EURUSD","M1",
+"Algo 2.0 Gold","9403074","Brandon Mai","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","GOLD SCALPER ","GOLD","H1",
+"Alpinist_1.02_edu_fix","9403075","Raul bryan","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","M5",
+"ARTILAS_pro_fix","9403077","Steven Maxwell","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","H1",
+"Ascent ||","9403085","Martin Michel","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","M15",
+"Assar Elite Pro Forex Hedge Master ","9405266","Jeffrey Oliva","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","Grid","eurusd","M5",
+"FXTrader_Fix","9405267","Lisa smith","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","Marti","EURUSD,USDJPY","H1",
+"Auto-Profit3.0","9405269","James Snyder","XM Global Limited","XMGlobal-Demo 2","10001","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","H1","forexexperttraders.com"
+"BabeBladeAlgo","9405270","Ronda Piper","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","GBPUSD","M1","forexexperttraders.com"
+"Bams-Bung Finnal V2","9405271","Charles Somerville","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD/GBPUSD","M15","https://forexwikitrading.com/      = CODE "
+"BananaPips","9405276","Matthew Dumas","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD,GBPUSD","M1","https://forexexperttraders.com/"
+"Bar iPro v9.1-FULL","9405278","Holly Smith","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","M30","https://forexexperttraders.com/bar-ipro-v11-1-ea-free-unlimited-version/"
+"BattleScalper_Fix","9405280","Sandra White","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","EURUSD","M15",
+"BBMA autotrading EA v2.03_fix","9405281","Frank Hauser","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","7-10-2021","S5-U3","NA","Multi","H4","https://forexexperttraders.com/"
+"Investor-Donchain Scalper ","241481753","Raval Somesh Mahashankar","FBS Inc","FBS-Real-4","1000","xKVBZy3R","8-10-2021","S6-U1","Griding","EURUSD","M5","this is investor Account for donchain Scalper only EURUSD "
+"Best EA_Fix","9405284","Selma roy","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","12-11-2021","S5-U3","NA","EURUSD","M5",
+"BiohazardEA Scalper ","78004483","John willis","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","12-11-2021","S5-U3","Scalper","GBPUSD","M5","NA"
+"BKK Scalper ","78004486","Lauren french","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","12-11-2021","S5-U3","Scalper ","EUR/GBP","M5",
+"BlackDiamondEA V5.5_fix","78004489","Amelia Hancock","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","12-11-2021","S5-U3","NA","EURUSD","M5","NA"
+"Adena Scalping ","320053256","Raval Somesh Mahashankar","FBS Inc","FBS-Real-12","1000","kgh51OFq","14-10-2021","CAP-SR71","Marti","EURUSD","M5","NA"
+"Adena Scalping ","78010061","Louis Russell","XM Global Limited","XMGlobal-Demo 4","100000","1122S$$&&d","14-10-2021","S5-U4","Marti","EURUSD","M5","NA"
+"INVESTOR SUNMOON","320053259","Raval Somesh Mahashankar","FBS Inc","FBS-Real-12","10000","N5HzXJpa","15-10-2021","S6-U9","Marti","EURUSD","COPY","CONNECTED WITH 22308875-S11-U6"
+"SQL","22257406","dustin crouch","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","06-04-2021","S11 U1","NA","EURUSD","H1",
+,"22257408","nyla hayes","XM Global Limited","XMGlobal-Demo","0",,,,,,,
+"EA Superstar v99.9","22257406","dustin crouch","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","06-04-2021","S11 U1","NA","EURUSD","H1",
+"EA-PajeroSport.v2","22257423","sophie clark","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","GBPUSD","H1",
+"Happy MartiGrid v1.7.1","22264319","kristin todd","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U1","NA","EURUSD-EURJPY-NZDUSD-USDJPY-AUDUSD","H1",
+"Happy Forex v2.3","22257441","katy stewart","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","NA","S11 U1","NA","EURCHF","H1",
+"Hedging_Forex_EA1_fix","22257425","aleena may","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","EURUSD","H1",
+"Happy Fast Money v1.3","22257440","dustin cruz","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","AUSUSD-EURCHF-USDCHF","H1",
+"Happy Algorithm PRO v1.2","22257438","betty sharp","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","EURUSD","D1",
+"Turbo Scalping EA","22257436","jake stewart","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","EURUSD","M5",
+"MTF Harmonics Scanner v2","22257431","alana stone","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","12-04-2021","S11 U1","NA","GBPUSD","M30",
+"Dusit Richly Wealthy EA","22257430","izaac gill","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","EURUSD-GBPUSD","M30-H1",
+"DarkSlide","22257428","jaye hensley","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","12-05-2021","S11 U1","NA","EURUSD","M5",
+"SafeGriding_EA_Ver1.6_crack","22257426","shelbie benson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","09-04-2021","S11 U1","NA","EURUSD-GBPUSD-GBPNZD-GOLD-AUDJPY","M15",
+"EA A007 SMART HEDGE ver.13.0 Pro_fix","22257419","wyatt fleming","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","10-05-2021","S11 U1","NA","EURUSD","H1",
+"Agressive.V1","22257418","sonia cruz","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","08-04-2021","S11 U1","NA","EURUSD","H1",
+"PipsRiverLive_fix","22257410","kelsie gray","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","08-04-2021","S11 U1","NA","EURUSD-GBPUSD","M30",
+"SPEED Scalper","22257413","betty lott","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","08-04-2021","S11 U1","NA","GBPUSD","M15",
+"$NETO EA","22264327","jem rush","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U1","NA","EURUSD","H1",
+"#EA Hobbit V7 - Special Edition","22264326","aiysha colley","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","NA","S11 U1","NA","EURUSD","H1",
+"Happy Trend v1.6","22264322","katy melon","XM Global Limited","XMGlobal-Demo","0",,,,,,,
+"Happy Trend v1.6","22264322","katy melon","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D",,"S11 U1","NA","EURUSD-AUDUSD-GBPUSD-USDCHF-USDJPY","M15-H1",
+"Happy Market Hours v2.1","22264320","corey tyler","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U1","NA","EURUSD-GBPUSD-EURCHF-EURGBP-USDCAD-USDCHF","M15",
+"Blazar","78004492","Ella Bevan","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U5","NA","EUR/GBP/JPY","M5","NA"
+"Flow V1.6.6","78004494","Larra Duffy","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U4","NA","EUR/GBP","H1","NA"
+"BrainyLocker 1.28","78004495","Jade Cartwright","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","M5","NA"
+"BrokerKiller V2.2","78004497","Lola Robson","XM Global Limited","XMGlobal-Demo 4","10004","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD/EURCHF","H1","NA"
+"Chinna EA","78004504","Joshua Morley","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U4","MARTI","EURUSD","H1","NA"
+"Apex_Scalper_fix (2)","22264332","tayler wolfe","XM Global Limited","XMGlobal-Demo","0","1122s$$&&D",,,,,,
+"Apex_Scalper_fix (2)","22264332","tayler wolfe","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U2","NA","EURUSD-GBPUSD","M5",
+"AsiaPacificBreakoutEA_J_6xx","22264338","clive brook","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD","H1",
+"Auto-Hedge EA","22264346","myra hobbs","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","NA","S11 U2","NA","EURUSD-GBPUSD","H1",
+"Azure Dragon","22264350","dustin gill","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U2","NA","EURUSD","H1",
+"Brands-Breakout EA","22264352","tiya fleming","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U2","NA","EURUSD-GBPUSD","H1",
+"BB_mGRID-ver7 EA","22264353","dustin hyde","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-04-2021","S11 U2","NA","EURUSD","H1",
+"Bengal+Iimpulsive+Scalper","22264358","kane mackay","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","16-04-2021","S11 U2","NA","EURUSD-GPBUSD","H1",
+"BlackDiamondEA V4_fix","22264362","jesus burns","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","19-04-2021","S11 U2","NA","EURUSD","M1",
+"Black-Panther-2020-1.5_fixed (2)","22264364","ziva gray","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","16-04-2021","S11 U2","NA","EURUSD-GBPUSD","H1",
+"Blazar","22264366","alana whitfiel","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","16-04-2021","S11 U2","NA","EURUSD-GBPUSD","H1",
+"Blazer_Robot_modified","22264368","joss reed","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","16-04-2021","S11 U2","NA","EURUSD-GBPUSD","H1",
+"Botax-2019","22264369","jordan bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","16-04-2021","S11 U2","NA","EURUSD","H1",
+"BSS Scalping EA","22270695","dustin crouch","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","GBPUSD","H1",
+"EA - Budak Flat v1.62","22270714","martyn gray","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD","H1",
+"EA - Hobbit v7(Full Version)","22270717","ziva mackay","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD","H1",
+"EA Aggressive-5-min-BB-scalping-by-theforexkings","22270720","jesus crouch","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD-GBPUSD","M5",
+"EA Angon Dollar Full Version","22270731","betty lott","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD","H1",
+"EA Black Scorpion_fix","22270732","izaac cain","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U2","NA","EURUSD","M30-H1",
+"EA DADAKHAN (UNLINITED)","22270735","betty proctor","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","20-04-2021","S11 U1","NA","EURJPY","H1",
+"Euro Scalper_fix","22285633","jordan cain","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","M1",
+"EA  - NASDAQ GHOST ROBOT v1.51","22270741","brax parry","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","26-04-2021","S11 U3","NA","EURUSD","M5",
+"EA PREDATOR (1)","22270744","thomas bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","04-05-2021","S11 U3","NA","EURUSD","H1",
+"EA Profit","22270745","kris watson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","04-05-2021","S11 U3","NA","EURUSD","H1",
+"EA RAmpok","22270747","wiktor burns","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","05-05-2021","S11 U3","NA","EURUSD","H1",
+"EA Skynet v 8.75 UNLIMITED","22270748","jarred felix","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","05-05-2021","S11 U3","NA","EURUSD","M30",
+"EA Strong Hold v1.26","22270749","nichole hyde","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","06-05-2021","S11 U3","NA","EURUSD","H1",
+"EA SUPA","22270750","frank hayes","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","07-05-2021","S11 U3","NA","EURUSD","H1",
+"EA ZAMMAN FOREX ROBOT JANUARY 2019(31-July)","22273378","betty riley","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","07-07-2021","S11 U3","NA","EURUSD","D1",
+"EA-Bears","22273382","nichole felix","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","10-05-2021","S11 U3","NA","EURUSD","H1",
+"Ea-iFxJambi-V4","22273386","calvin cain","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1",
+"EA-RAmpok","22273391","garin leech","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","H1",
+"EA-Sukron-BengkelForex-Rule-Mr.Muhamad-Sukron","22273394","kris bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","H1",
+"EA-RAmpok","22273391","garin leech","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","H1",
+"EA-Sukron-BengkelForex-Rule-Mr.Muhamad-Sukron","22273394","kris bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D",,,,,,
+"EA-Sukron-BengkelForex-Rule-Mr.Muhamad-Sukron","22273394","kris bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","H1",
+"e-BJF-BollingerEA","22273400","wiktor smith","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","12-05-2021","S11 U3","NA","EURUSD","H1",
+"Eklatant Forex Robot","22273404","tyron hopper","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","H1",
+"Elli v2","22273408","katy cain","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","21-05-2021","S11 U3","NA","EURUSD","H1",
+"Euro Scalper_fix","22285633","jordan cain","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD","M1",
+"Exp - TickSniper MT4 20190801","22285635","wiktor kevin","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1",
+"FlySystemEA_v5.5","22285639","fraser hook","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1-M5",
+"Foerx Secret","22285640","jena lewis","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1",
+"ForexQuantEA","22285642","paul bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","12-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1",
+"FXTrader_fix","22285644","brax burns","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","11-05-2021","S11 U3","NA","EURUSD-GBPUSD","H1",
+"Gold Catcher V2_fix","22285651","paul lewis","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","13-05-2021","S11 U4","NA","GOLD","H1",
+"Gold Rush Catcher fix","22285659","saara lech","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","13-05-2021","S11 U4","NA","GOLD","H1",
+"Golden Eyes-v1.8","22293617","jarred betty","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","19-05-2021","S11 U4","NA","EURUSD","H1",
+"GOLDMAGIC","22293619","keiron demon","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","19-05-2021","S11 U4","NA","EURUSD-GBPUSD","H1",
+"Gold-Pips-v3_fix","22293620","joss hyde","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-05-2021","S11 U4","NA","GOLD","M5",
+"GPSForexRobotEURGBP-edu - GPSForex RobotEURUSD_edu","22293623","thomas bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","18-05-2021","S11 U4","NA","EURGBP-EURUSD","H1",
+"greed-profit-EA","22293625","calvin watson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-05-2021","S11 U4","NA","EURUSD","H1",
+"KakaScalper2019EAlCMarkets_fix","22294692","thomas hayes","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","14-05-2021","S11 U4","NA","EURUSD-GBPUSD","M15",
+"Leprechaun v2.0 - GoldenRain 2.2 open NOGOLD_fix","22294698","harlen bell","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","17-05-2021","S11 U4","NA","EURUSD","H1",
+"LIAVERTY","22294700","jena reeves","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","13-05-2021","S11 U4","NA","EURUSD","H1",
+"LowRiskScalper_Long - LowRiskScalper_Short","22294703","kris watson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","18-05-2021","S11 U4","NA","EURUSD","M5",
+"Luxury Fx Robot","22294705","calvin gray","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","17-05-2021","S11 U4","NA","EURUSD","H1",
+"MarcosBreakDay","22301213","Jayde rojas","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","24-05-2021","S11 U5","NA","EURUSD","H1",
+"Menirva EURUSD","22301217","lana riley","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","04-06-2021","S11 U5","NA","EURUSD","H1",
+"Momentum Grid","22301227","jayce parry","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","26-05-2021","S11 U5","NA","EURUSD","H1",
+"NARUTO V2_fix","22301233","katy simpson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURUSD","H1",
+"NeuralM","22301236","kris gray","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","31-08-2021","S11 U5","NA","EURUSD","H1",
+"NEW-F.Parasite-V16.5","22301240","jesus hyde","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURUSD","H1",
+"OMEN 5.0V","22301294","wiktor leech","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURUSD","H1",
+"PanamaForex-Ea","22301298","ziva simpson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","27-07-2021","S11 U5","NA","EURUSD","H1",
+"pantek","22301305","joss rush","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURGBP","H1",
+"Patas","22301310","kris felix","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURUSD","H1",
+"Perfect Score V4.78","22301316","jena proctor","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","25-05-2021","S11 U5","NA","EURUSD","H1",
+"Pirate v1.20","22301325","lan hayes","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","17-06-2021","S11 U5","NA","EURCHF-EURAUD-USDCHF-USDCAD-CHFJPY","M15",
+"Professional_EA","22306822","james huston","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","27-05-2021","S11 U5","NA","EURUSD-GBPUSD","H1",
+"RichTeam_revers2.2_fix","22306824","jacob peterson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","27-05-2021","S11 U5","NA","EURUSD","H1",
+"Rollover Finch v2.3","22306826","dave jhonson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D",,,,,,
+"Rollover Finch v2.3","22306826","dave jhonson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","04-06-2021","S11 U5","NA","EURUSD","H1",
+"RSI Grid","22306830","mike bailey","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","28-05-2021","S11 U5","NA","EURUSD-GBPUSD","H1",
+"Scalper","22306841","bailey tartal","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","28-05-2021","S11 U6","NA","EURUSD-GBPUSD","M5",
+"Scalper_MadMax_v.1.4","22306843","jarred thompson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D",,,,,,
+"Scalper_MadMax_v.1.4","22306843","jarred thompson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","28-05-2021","S11 U6","NA","EURUSD-GBPUSD","H1",
+"SoeHoe.ID_Forex Vzlomshik Pro","22308869","kris perry","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD","H1",
+"SoftEA","22308873","tilly robles","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD-GBPUSD","H1",
+"SUNMOON EA -FreeForexEA","22308875","debbie head","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD-GBPUSD","H1",
+"Super Money Grid","22308877","keety leeves","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD","H1",
+"SuperGridEA","22308880","rone anderson","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","GBPUSD","H1",
+"Surf Market 2019 fix (1)","22308882","brax smith","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD-GBPUSD","M5",
+"THG Straddler Trader Diamond_v2.8.2","22308887","david hansley","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","02-06-2021","S11 U6","NA","EURUSD","H1",
+"THOR EA (1)","22308888","ben clarke","XM Global Limited","XMGlobal-Demo","10000","1122s$$&&D","01-06-2021","S11 U6","NA","EURUSD","H1",
+"THUNDERBIRD     V10_fix","9290932","mia smirh","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","10-06-2021","S11 U6","NA","EURUSD","H1",
+"Trio_Orchestra V1.1","9290939","lucy haden","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","10-06-2021","S11 U6","NA","EURUSD","H1",
+"Turbo-profit v.3.0","9290942","christina guest","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","11-06-2021","S11 U6","NA","EURUSD","H1",
+"Ultimatum Breakout_fix","9290944","ananya novak","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","16-06-2021","S11 U6","NA","EURUSD","H1",
+"Victory Foerx Trading","9290949","shelbbie hood","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-09-2021","S11 U6","NA","EURUSD","M30",
+"VR-Smart-Grid-RU","9290951","rose clerk","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","17-06-2021","S11 U6","NA","EURUSD","H1",
+"WINNER-FX   AF SCALPER  2020_fix","9290952","meera costa","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","17-06-2021","S11 U6","NA","EURJPY-EURUSD-USDJPY","H1",
+"WPR Grid","9290954","velma winter","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","17-06-2021","S11 U6","NA","EURUSD-GBPUSD","M15",
+"YORK131","9290957","suzain marck","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-06-2021","S11 U6","NA","EURUSD","H1",
+"2019 Crisis Saclper - Autonated Foerx robot","9307129","jesus cain","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","24-06-2021","S11 U7","NA","EURUSD","H4",
+"ass2019","9307134","keiron lewis","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-06-2021","S11 U7","NA","EURUSD","H1",
+"BSS V2","9307137","jordan keller","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","18-06-2021","S11 U7","NA","EURUSD","M5",
+"EABreakOut","9307143","clive glass","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-06-2021","S11 U7","NA","EURUSD","H1",
+"Fibo Pivot Expert Advisor","9307145","john francus","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","25-06-2021","S11 U7","NA","EURUSD","D1",
+"Frbestexp (1)","9307147","shaun robles","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","30-06-2021","S11 U7","NA","EURUSD","H1",
+"mGRID EA","9307148","curtis bowees","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-06-2021","S11 U7","NA","EURUSD","H1",
+"News Trading Pending Order EA v1.6","9310458","calvin bell","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","22-06-2021","S11 U7","NA","EURUSD","H1",
+"NinjaForex_Versi Al unlimited fix","9310463","fraser leech","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","05-07-2021","S11 U7","NA","EURUSD","H1",
+"Pro7_EA","9310468","paul lewis","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","21-06-2021","S11 U7","NA","EURUSD-GBPUSD-GOLD","H1",
+"Rijifie stochastic rsi 4 uur versie 001 test","9310469","Brax watson","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","08-07-2021","S11 U7","NA","EURUSD","H1",
+"$ Simple EA Vertex","9310481","debbie seth","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","25-06-2021","S11 U7","NA","EURUSD","H1",
+"bdprofit v2","9316905","jane seth","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","30-06-2021","S11 U7","NA","EURUSD","H1",
+"Broker Killer v 2.2","9316922","hunter hobbs","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","05-07-2021","S11 U8","NA","EURUSD","H1",
+"chinett","9316929","nicola chase","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","07-07-2021","S11 U8","NA","EURUSD","H1",
+"Cougar FX EA","9316931","aiysha brook","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","09-07-2021","S11 U8","NA","EURUSD","H1",
+"EA-HollyGrail v3","9324191","Katy benton","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","14-07-2021","S11 U8","NA","EURUSD","H1",
+"EA Impact ScalperX_fix","9324194","jacob berg","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","13-07-2021","S11 U8","NA","EURUSD","H1",
+"EA kingdom","9324196","hunter santos","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","14-07-2021","S11 U8","NA","EURUSD","H1",
+"EA-PajeroSport.v2","9324202","zain chase","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","06-07-2021","S11 U8","NA","EURUSD","H1",
+"EA SUPER YUMNAA_UNLIMITED","9324203","keely owen","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","19-07-2021","S11 U8","NA","EURUSD","H1",
+"trend catcher","9324206","aiysha wolfe","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","06-07-2021","S11 U8","NA","EURUSD","H1",
+"Evil twin scalper Cracked","9333985","john francis","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","02-08-2021","S11 U8","NA","GBPUSD","M15",
+"greed-profit-EA","9333981","debbie paul","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","27-07-2021","S11 U8","NA","EURUSD","H1",
+"SuperGridEA","9355610","freya allen","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","11-08-2021","S11 U9","NA","EURUSD","H1",
+"EA ForexFiv_V9.3_fix","9355628","lucas brown","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","18-08-2021","S11 U9","NA","EURUSD","H1",
+"SD-Scalper-MM","9342870","dustin harris","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","06-08-2021","S11 U9","NA","EURUSD","H1",
+"NunoFX-Scalper","9333994","corey lowry","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","05-08-2021","S11 U9","NA","EURUSD","H1",
+"SeanFx","9342871","Stacy diaz","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D",,,,,,
+"SeanFx","9342871","Stacy diaz","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","10-08-2021","S11 U9","NA","EURUSD","H1",
+"NunoFX-Scalper","9342890","menna gibbs","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","09-08-2021","S11 U9","NA","EURUSD","H1",
+"SD-Scalper-MM","9342897","dustin hines","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","11-08-2021","S11 U9","NA","EURUSD","H1",
+"Sean Fix","9342901","ellie smith","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","10-08-2021","S11 U9","NA","EURUSD","H1",
+"Super-COMBO_EDU","9342904","monica conway","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","10-08-2021","S11 U9","NA","EURUSD","H1",
+"X-liquidex","9355618","caroline jones","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","12-08-2021","S11 U9","NA","EURUSD","H1",
+"EA_ForexGodfather_GBPUSD_H1_v1.0","9355622","Eva smith","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","09-08-2021","S11 U9","NA","GBPUSD","H1",
+"EA_ForexGodfather_GBPUSD_H1_v2.0","9355622","Eva smith","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","19-08-2021","S11 U9","NA","GBPUSD","H1",
+"SuperGridEA","9342884","elliana doyle","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","06-08-2021","S11 U9","NA","EURUSD","H1",
+"Super-COMBO_EDU","9342876","sania hines","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","06-08-2021","S11 U9","NA","EURUSD","H1",
+"Scalper_v5","9342894","stacy franks","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","26-07-2021","S11 U9","NA","EURUSD","H1",
+"Forex Robotron EA V28","9355626","jake relish","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","13-09-2021","S11 U9","NA","EURUSD","H1",
+"GreenScalper v1.00","9365642","jOEL Tyler","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","19-08-2021","S11 U9","NA","EURUSD","H1",
+"ForexLines_EA","9365637","Charlie Brooks","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","30-08-2021","S11 U9","NA","EURUSD","H1",
+"GOLD MINING EA_ORIGINAL","9365633","Declan Knowles","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","19-08-2021","S11 U9","NA","EURUSD","H1",
+"Generic A-TIP v.9.02","9355641","lucy haden","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","16-09-2021","S11 U9","NA","EURCHF","H1",
+"Scalper_v5","9342866","Aiysha cain","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","26-07-2021","S11 U9","NA","EURUSD","H1",
+"G Trader EA_fix","9355634","arthur zack","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","09-08-2021","S11 U9","NA","EURUSD-",,
+"G Trader EA-fix","9355634","arthur zack","XM Global Limited","XMGlobal-Demo 2","10000","1122s$$&&D","09-08-2021","S11 U9","NA","EURUSD-USDJPY-USDCAD-AUDUSD-EURGBP","H1",
+"High Frequency SCALPER","9365647","Logan Finch","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","03-09-2021","S11 U10","NA","AUDCAD-AUDCHF-EURAUD-EURNZD-NZDJPY-GBPAUD-GBPJPY-GBPUSD-NZDCHF","M1",
+"Hook-EA","9365651","sophia pratt","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","19-08-2021","S11 U10","NA","EURUSD","H1",
+"Indigo.Trader.v1.0.0","9365653","Harrison Stokes","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","03-09-2021","S11 U10","NA","EURUSD","H1",
+"FT1-ROBOFINDER-TEL_EMAIL","9365657","poppy collins","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","13-09-2021","S11 U10","NA","EURUSD","H1",
+"king gold buy-king gold sell","9365659","Ryan Mitchell","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","07-09-2021","S11 U10","NA","GOLD","H1",
+"ForexKingle","9384395","Chris Toombs","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","10-09-2021","S11 U10","NA","USDJPY-USDCAD-NZDUSD-GBPUSD-EURAUD-AUDUSD-EURUSD","H1",
+"LANGUST v1.6","9384399","Ryan Humphries","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","10-09-2021","S11 U10","NA","EURUSD-EURJPY-USDCHF-USDJPY-NZDCHF","M5-H1",
+"Legend_fix","9384401","Troy Davis","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","13-09-2021","S11 U10","NA","EURUSD","H1",
+"Ea-iFxJambi-V4","9384402","Daniel Thompson","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","13-09-2021","S11 U10","NA","EURUSD","H1",
+"Meris6-2020_fix","9384405","Willie Steele","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","13-09-2021","S11 U10","NA","EURUSD","H1",
+"MidasamaTrader EA_Full Unlimited","9384408","Robert Schumann","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","14-09-2021","S11 U10","NA","EURUSD-AUDUSD-EURJPY-GBPUSD-USDCAD-USDCHF-USDJPY","M30-H1",
+"MiEA 9.0_fix","9384409","justin carter","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","09-09-2021","S11 U10","NA","EURUSD","H1",
+"MoneyManager","9384411","Anthony Bishop","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","09-09-2021","S11 U10","NA","EURUSD","M5",
+"SafeGriding_EA_Ver1.6_crack","9384413","Devin Leyva","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","15-09-2021","S11 U10","NA","EURUSD-GOLD-GBPUSD-GBPNZD-AUDJPY","H1",
+"Profit-FX","9388951","Zachary mills","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","16-09-2021","S11 U10","NA","EURUSD","H1",
+"Forex_Robotron_v23","9388955","Sean Carter","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","20-09-2021","S11 U10","NA","EURUSD","H1",
+"Somviral","9388968","Alfie Townsend","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","14-09-2021","S11 U10","NA","EURUSD","H1",
+"ScalperEA_2.7Lite-Grow_1","9388966","Charlie Davies","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","20-09-2021","S11 U10","NA","EURUSD-AUDUSD-GBPUSD-USDCAD-USDCHF-USDJPY","H1",
+"ScalperEA_2.7Lite-Grow_1","9388964","Connor Hick","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","17-09-2021","S11 U10","NA","EURUSD-AUDUSD-GBPUSD-USDCAD-USDCHF-USDJPY","H1",
+"SaclperEATuner2020_Full","9388962","Callum Hobbs","XM Global Limited","XMGlobal-Demo 2","10000","1122S$$&&d","14-09-2021","S11 U10","NA","EURUSD","H1",
+"CoreFX EA #License Full Unlimited ","78004505","Nicole Richards","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","27-10-2021","S5-U4","NA","EURUSD","M30","SUF"
+"Criket Scalper ","78004507","Georgina Miller","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","27-10-2021","S5-U4","Scalper ","EURUSD","M30","NA"
+"Currency Strength D1 V4.1","78012891","Olivia Junck","XM Global Limited","XMGlobal-Demo 4","9992","1122S$$&&d","01-11-2021","S5-U4","NA","Multi","H1","SF NA"
+"DAIY WATCH EA Pro v 1.5 only0,01 lot (ENG)","78004494","Larra Duffy","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","01-11-2021","S5-U4","NA","GBPUSD","H1",
+"DAILY WATCH EA Pro v 1.5 only 0,001 lot (ENG)","78004494","Larra Duffy","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","01-11-2021","S5 U4","NA","EURGBP","M1",
+"SoeHoe.ID_adenanscalping","78010061","Louis Russell","XM Global Limited","XMGlobal-Demo 4","130286","1122S$$&&d","14-10-2021","S5-U4","NA","EURUSD","M5/H1","MO"
+"SoeHoe.ID_adenanscalping","78010061","Louis Russell","XM Global Limited","XMGlobal-Demo 4","141865","1122S$$&&d","14-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"Blazar","78004492","Ella Bevan","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-10-2021","S5-U4","NA","EURUSD-GBPUSD-USDJPY","M5","SF-NA"
+"EFX PRO v1.5_fix","78026402","Maria Hopper","XM Global Limited","XMGlobal-Demo 4","10001","1122S$$&&d","02-11-2021","S5-U5","NA","EURUSD","H1","MO"
+"Blazar","78004492","Ella Bevan","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"Flow v1.6.6","78004494","Larra Duffy","XM Global Limited","XMGlobal-Demo 4","10020","1122S$$&&d","01-11-2021","S5-U4","NA","GBPUSD-EURUSD","H1","NA"
+"Brainy Locker 1.28","78004495","Jade Cartwright","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-10-2021","S5-U4","NA","EURUSD","M5","NA"
+"Broker Killer v2 .2","78004497","Lola Robson","XM Global Limited","XMGlobal-Demo 4","554","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"Chinna EA","78004504","Joshua Morley","XM Global Limited","XMGlobal-Demo 4","10033","1122S$$&&d","29-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"CireFX EA #License Full Unlimited","78004505","Nicole Richards","XM Global Limited","XMGlobal-Demo 4","10031","1122S$$&&d",,,,,,
+"CoreFX EA #License Full Unlimited","78004505","Nicole Richards","XM Global Limited","XMGlobal-Demo 4","10031","1122S$$&&d","29-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"Criket-Scalper-2016","78004507","Georgina Miller","XM Global Limited","XMGlobal-Demo 4","10081","1122S$$&&d","27-10-2021","S5-U4","NA","EURUSD","M30","NA"
+"RMI_EA_inside_candle_V4_SL_lisense_320","78012887","William Lapointe","XM Global Limited","XMGlobal-Demo 4","9859","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"Currency Strength D1 V4.1","78012891","Olivia Junck","XM Global Limited","XMGlobal-Demo 4","9889","1122S$$&&d","18-10-2021","1122S$$&&d","NA","EURUSD","H1","NA"
+"ea_hedgeaverage","78026407","William Shults","XM Global Limited","XMGlobal-Demo 4","9944","1122S$$&&d","02-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"DAILY WATCH EA Pro v 1.5 only 0,01 lot (ENG)","78012895","Eliziario Testa","XM Global Limited","XMGlobal-Demo 4","10001","1122S$$&&d","18-10-2021","S5-U4","NA","GBPUSD","H1","NA"
+"EA_LUCRE","78026414","Debra Boggs","XM Global Limited","XMGlobal-Demo 4","12273","1122S$$&&d","02-11-2021","S5-U5","NA","EURUSD","H1","NA"
+,"78012896","Sonia Biro","XM Global Limited","XMGlobal-Demo 4","10000",,,,,,,"Diffrent Timeframe"
+"DarkSlide V7.03.113_fix","78012898","Nahuel Ozolini","XM Global Limited","XMGlobal-Demo 4","9356","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"EA_Mustang_v_3.3_fix","78026415","John Bradley","XM Global Limited","XMGlobal-Demo 4","10215","1122S$$&&d","02-11-2021","S5-U5","NA","EURSUD-GBPUSD-AUDUSD","M15","NA"
+"DASH-BOT","78012911","Magdalena Goodwin","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","H4","NA"
+"EA_Brilliant Pro_UNLIMITED_M30_fix","78012912","Marina Villalba","XM Global Limited","XMGlobal-Demo 4","10159","1122S$$&&d","11-11-2021","S5-U4","NA","EURUSD","M30","NA"
+"EA - Budak Ubat v1.51","78012917","Margot Kozey","XM Global Limited","XMGlobal-Demo 4","10067","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","H1","NA"
+"DeltonPro Original V2.2_edu by sharkfxo (1)","78012921","Maida Suryatmi","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","18-10-2021","S5-U4","NA","EURUSD","M15","NA"
+"Forex Armor EA - GBPJPY H1_fix","78026418","Luther Owens","XM Global Limited","XMGlobal-Demo 4","10910","1122S$$&&d","02-11-2021","S5-U5","NA","GBPJPY","H1","NA"
+"DO_IT v9.77_fix","78012924","Jason Cassin","XM Global Limited","XMGlobal-Demo 4","10581","1122S$$&&d","18-10-2021","S5-U4","NA","GBPUSD","H1","NA"
+"Double Extremum","78026374","Esther Gurganus","XM Global Limited","XMGlobal-Demo 4","10053","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD","H1","NA"
+"WallStreet_ASIA_v1.4","78026419","Agnes Reyes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","02-11-2021","S5-U5","NA","EURUSD-EURCHF-EURGBP-GBPCAD-GBPCHF-GBPUSD-USDCAD-USDCHF-USDJPY","H1","NA"
+"Dragon Expert","78026376","Eric Wilburn","XM Global Limited","XMGlobal-Demo 4","10582","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD","H1","NA"
+"Dragon Expert Advisor v4.1","78026382","Jennifer Jones","XM Global Limited","XMGlobal-Demo 4","10474","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD","H1","NA"
+"Drakon_fix","78004494","Larra Duffy","XM Global Limited","XMGlobal-Demo 4","10020","1122S$$&&d","08-10-2021","S5-U4","NA","EURUSD","M30","NA"
+"EA Driver-EURUSD-M5_fix","78026387","Tracey Ries","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD","M5","NA"
+"Dusit Richly Wealthy EA","78026391","Dollie Suggs","XM Global Limited","XMGlobal-Demo 4","9829","1122S$$&&d","04-11-2021","S5-U4","NA","EURUSD","H1","NA"
+"Eco Robot (R)_fix","78032100","Allen Ambrose","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-GBPUSD","M1","NA"
+"WayGrow","78029902","Lynn Parman","XM Global Limited","XMGlobal-Demo 4","9749","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD","M15","NA"
+"EA SPARTAN BOLT-","78029899","Stacy Johnson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD-GBPUSD-USDJPY","M1","NA"
+"WayGrow","78029902","Lynn Parman","XM Global Limited","XMGlobal-Demo 4","9749","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD","M15","NA"
+"EA SPARTAN BOLT-","78029899","Stacy Johnson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD-GBPUSD-USDJPY","M1","NA"
+"Euro Scalper_fix","78032121","Gary Edmonds","XM Global Limited","XMGlobal-Demo 4","10033","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"Euro Scalper_fix","78032121","Gary Edmonds","XM Global Limited","XMGlobal-Demo 4","10033","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"FXGen MultiCurrency","78032112","Daniel Birney","XM Global Limited","XMGlobal-Demo 4","10061","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-GBPUSD","H1","NA"
+"FXGen MultiCurrency","78032112","Daniel Birney","XM Global Limited","XMGlobal-Demo 4","10061","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-GBPUSD","H1","NA"
+"EA VST-V5_fix","78029906","Tony Hall","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD-GBPUSD-USDJPY-USDCHF","H1","NA"
+"EA VST-V5_fix","78029906","Tony Hall","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD-GBPUSD-USDJPY-USDCHF","H1","NA"
+"EA Skynet","78029897","Mario Grantham","XM Global Limited","XMGlobal-Demo 4","11228","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD","M30","NA"
+"eklatan_fix","78032105","McCain Crystal","XM Global Limited","XMGlobal-Demo 4","9881","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"EternalGrow","78032115","Judy Vangundy","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-EURCHF-GBPCHF","M15","NA"
+"Evil twin scalper EA","78032122","Maryann Potts","XM Global Limited","XMGlobal-Demo 4","4895","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-AUDUSD-GBPUSD-USDCHF","H1","NA"
+"EternalGrow","78032115","Judy Vangundy","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-EURCHF-GBPCHF","M15","NA"
+"Elite Tactics_demo_fix","78029909","Elizbeth Allen","XM Global Limited","XMGlobal-Demo 4","10005","1122S$$&&d","05-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"Expert Smart Trend MT4","78032123","Kathy Postell","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","M5","NA"
+"M5EURJPY_Scalper","78032103","Larry Massengale","XM Global Limited","XMGlobal-Demo 4","9995","1122S$$&&d","08-11-2021","S5-U6","NA","EURJPY","M5","NA"
+"M5EURJPY_Scalper","78032103","Larry Massengale","XM Global Limited","XMGlobal-Demo 4","9995","1122S$$&&d","08-11-2021","S5-U6","NA","EURJPY","M5","NA"
+"Force Killer EA_fix","78033201","Nicholas Griffith","XM Global Limited","XMGlobal-Demo 4","24094","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","M5","NA"
+"Force Killer EA_fix","78033201","Nicholas Griffith","XM Global Limited","XMGlobal-Demo 4","24094","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","M5","NA"
+"Force Revolution EA_fix","78033203","Heidy Kelley","XM Global Limited","XMGlobal-Demo 4","10011","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","M30","NA"
+"Force Titanium EA_fix","78033205","Bettie Dutton","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD-AUDUSD-USDCAD","H1","NA"
+"Force Titanium EA_fix","78033205","Bettie Dutton","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD-AUDUSD-USDCAD","H1","NA"
+"Force Revolution EA_fix","78033203","Heidy Kelley","XM Global Limited","XMGlobal-Demo 4","10011","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","M30","NA"
+"Force Tripple EA_fix","78033207","Ora Gallaher","XM Global Limited","XMGlobal-Demo 4","10184","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-EURJPY","M15","NA"
+"BSS","78033208","Ernest Smith","XM Global Limited","XMGlobal-Demo 4","13321","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","H1","NA"
+"ForexLines_EA","78033209","Joan Brown","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","H4","NA"
+"SV EVA_v1.1.fix","78033212","Shane Gerry","XM Global Limited","XMGlobal-Demo 4","10033","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","M15","NA"
+"Forex Auto Millions Pro EURUSD","78033214","Isabel Gentry","XM Global Limited","XMGlobal-Demo 4","10089","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","M5","NA"
+"ForexComboSystem_v5.0(4in1)EURUSD","78033217","Samuel Dietz","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","H1","NA"
+"ForexComboSystem_v5.0(4in1)GBPUSD","78033225","Erick Helton","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","GBPUSD","H1","NA"
+"EURUSD-GBPUSD","78033228","Mary Northern","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","H1","NA"
+"Forexhackers-EA_V2","78033231","Min Hall","XM Global Limited","XMGlobal-Demo 4","6240","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-USDJPY-GBPUSD-AUDUSD-USDCHF","M1","NA"
+"BananaPips updated","78033232","Derek Lemus","XM Global Limited","XMGlobal-Demo 4","9104","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","M1","NA"
+"inControl 1.24","78033235","Jerry McKenzie","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","AUDUSD-EURGBP-USDJPY","M30","NA"
+"The Jesing Magic - Basket Trading v1.1","78033238","Thomas Talbot","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","H1","NA"
+"ForexKingleScalper","78033240","Stevie Barton","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GBPUSD","M1","NA"
+"MegaDroid 1.37","78033244","Charles Manion","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD","H1","NA"
+"Forex Setka Trader 1.6","78033247","Roland Talton","XM Global Limited","XMGlobal-Demo 4","10164","1122S$$&&d","18-11-2021","S5-U7","NA","EURUSD","H1","NA"
+"Forex Setka Trader 1.6","78033249","Richard Olmstead","XM Global Limited","XMGlobal-Demo 4","10249","1122S$$&&d","16-11-2021","S5-U7","NA","EURUSD","M30","NA"
+"forex_sniper","78033269","Joan Tran","XM Global Limited","XMGlobal-Demo 4","10411","1122S$$&&d","22-11-2021","S5-U7","NA","EURUSD","M15","NA"
+"Forex Tramp 4.0.0 pb","78033273","Joan Baltazar","XM Global Limited","XMGlobal-Demo 4","10298","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-GOLD-GBPUSD-AUDUSD","H1","NA"
+"forex_sniper","78033269","Joan Tran","XM Global Limited","XMGlobal-Demo 4","10411","1122S$$&&d","22-11-2021","S5-U7","NA","EURUSD","M15","NA"
+"Apex_Scalper_fix","78033276","Shawn Mack","XM Global Limited","XMGlobal-Demo 4","9992","1122S$$&&d","09-11-2021","S5-U7","NA","GBPUSD-EURUSD","H1","NA"
+"DaVinci_fix","78033278","James Hiebert","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-11-2021","S5-U7","NA","EURUSD-USDCAD-USDCHF-EURCHF","H1","NA"
+"DVA_Martin_Dual_3_orders","78034315","Gary Wilke","XM Global Limited","XMGlobal-Demo 4","10366","1122S$$&&d","10-11-2021","S5-U7","NA","EURUSD-GBPUSD","H1","NA"
+"FX_EAdemo","78034329","Myrna Dodson","XM Global Limited","XMGlobal-Demo 4","9888","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","M5","NA"
+"Fxcore100EA_BUY_fix","78034330","Luz Blackburn","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD-GBPUSD","M30","NA"
+"Fxcore100EA_SELL_fix","78034333","Ernest Lambert","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","GBPUSD","H1","NA"
+"fx dzier ea","78034336","Connie Hall","XM Global Limited","XMGlobal-Demo 4","21329","1122S$$&&d","10-11-2021","S5-U8","NA","AUDNZD","H4","NA"
+"FXStabilizer_EUR 1.2_fix","78034339","Franklin Hooper","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"FX Trendroid_fix","78034344","Charles Miller","XM Global Limited","XMGlobal-Demo 4","10017","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","M30","NA"
+"==GEJOLA-CINTA==","78034348","Daniel Oliva","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Generic A-TLP 11.94.9","78034351","Courtney Petrie","XM Global Limited","XMGlobal-Demo 4","10001","1122S$$&&d","10-11-2021","S5-U8","NA","AUDCAD-USDCHF-USDCAD-GBPUSD","H1","NA"
+"Generic v.14.01.64 Martingale","78034354","Erin Siegel","XM Global Limited","XMGlobal-Demo 4","10010","1122S$$&&d","10-11-2021","S5-U8","NA","GBPUSD-USDJPY-USDCAD-USDCHF","M15","NA"
+"GLX-3.1Forse","78034358","Terry Bresnahan","XM Global Limited","XMGlobal-Demo 4","0","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Exp-GOOD SANTA_fix","78034364","David Tillman","XM Global Limited","XMGlobal-Demo 4","10004","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"GPS_SK_EURUSDv3","78034366","Jose Lackey","XM Global Limited","XMGlobal-Demo 4","9992","1122S$$&&d","22-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"GR PRO 2 new","78034368","Joseph Mueller","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"G Trader EA_fix","78034370","Martha Barragan","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Gurumarra Forex V1","78034373","Sharon Buck","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","USDCAD-GBPUSD-USDCHF","M30","NA"
+"HAMSTER_GRID_MT4","78034374","Derek Mitchell","XM Global Limited","XMGlobal-Demo 4","0","1122S$$&&d","19-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Order[ea]Line","78034377","Brian Brian","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","M30","NA"
+"Hedging_Forex_EA1_fix","78034378","David Hunter","XM Global Limited","XMGlobal-Demo 4","10038","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","M15","NA"
+"Hendra Robot","78034383","William Bynoe","XM Global Limited","XMGlobal-Demo 4","9529","1122S$$&&d","10-11-2021","S5-U8","NA","EURUSD","M30","NA"
+"HFT Arbitrage v4.5","78035322","Cecilia Smith","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","11-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"HHPro500_EA_unlocked","78035332","Michael Townsend","XM Global Limited","XMGlobal-Demo 4","9723","1122S$$&&d","11-11-2021","S5-U8","NA","EURUSD-AUDJPY-EURJPY-AUDNZD-USDCHF","H1","NA"
+"high profit EA","78035334","Roger Fragoso","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","11-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"HighwayEA.v.3.2.7sv","78035336","Albert smith","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","11-11-2021","S5-U8","NA","EURUSD","M5","NA"
+"Holy Grail","78035339","Gayle Day","XM Global Limited","XMGlobal-Demo 4","9161","1122S$$&&d","11-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Hybrid-Trader_NK","78038918","Mari Radley","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","15-11-2021","S5-U8","NA","USDCHF","H4","NA"
+"e_llan-Dynamic-Premium_v2","78038928","Mark Allen","XM Global Limited","XMGlobal-Demo 4","10182","1122S$$&&d","15-11-2021","S5-U8","NA","GBPUSD","M15","NA"
+"e_lllan-Dynamic-Pro_v2.05","78038930","Carl Delaney","XM Global Limited","XMGlobal-Demo 4","10038","1122S$$&&d","15-11-2021","S5-U8","NA","GBPUSD","M15","NA"
+"llan-TrioKS-v1.45","78038933","Roland Harrington","XM Global Limited","XMGlobal-Demo 4","10447","1122S$$&&d","15-11-2021","S5-U8","NA","EURUSD","M15","NA"
+"Impulse-Market 3.0_fix","78038936","Jill Courville","XM Global Limited","XMGlobal-Demo 4","9953","1122S$$&&d","15-11-2021","S5-U8","NA","AUDUSD-GBPUSD","M1","NA"
+"iMoney v4.1","78038939","Brian Graybeal","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","15-11-2021","S5-U8","NA","EURUSD-USDCAD","H1","NA"
+"Indigo.Trader.v1.0.0","78038943","Mary Winfield","XM Global Limited","XMGlobal-Demo 4","9901","1122S$$&&d","15-11-2021","S5-U8","NA","GBPUSD","H1","NA"
+"Integral PRO 3.7_fix","78038945","Catherine Lamb","XM Global Limited","XMGlobal-Demo 4","98","1122S$$&&d","15-11-2021","S5-U8","NA","EURUSD","M15","NA"
+"Irins Expert v1.8_fix","78038948","Pearl Stjohn","XM Global Limited","XMGlobal-Demo 4","1249","1122SS$$&&dd","15-11-2021","S5-U8","NA","EURUSD","M30","NA"
+"Hybrid-Trader_NK","78038918","Mari Radley","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U8","NA","USDCHF","H4","NA"
+"iSwing v3.0_fix","78038952","Melissa Yazzie","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U8","NA","EURUSD","H1","NA"
+"Condor Scalper V3-ed (1)","78038955","Kathryn Roundtree","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"JabreexPushToTheLimit","78038960","Rosa Boyd","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","M1","NA"
+"JabreexStopOrder_","78038962","Karl Delariva","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"JabrixScalper_5.1 (1)","78038965","Leona Greer","XM Global Limited","XMGlobal-Demo 4","10008","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","M1","NA"
+"JabrixScalper_Masterpiece","78038966","Maragret Newman","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"JabrixScalperForInsta","78038970","Tracy Marchand","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"JabrixScalSTOPtrap","78038971","Angela Lynch","XM Global Limited","XMGlobal-Demo 4","9816","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","M5","NA"
+"WOC_modify_04","78038972","Alexander McKnight","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","M1","NA"
+"Jacaranda Unlimited v1.05_fix","78038974","Bryon Fiedler","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"SS","78038979","Michael Barber","XM Global Limited","XMGlobal-Demo 4","10076","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD-EURCHF","M15","NA"
+"KeltnerEA_Combined_Ver5.1a","78038980","Edna McPherson","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"KeltnerEA_Ver4","78038983","Richard Garcia","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"KGFv1","78038985","Joel King","XM Global Limited","XMGlobal-Demo 4","11037","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","M1","NA"
+"LaMa Scalper","78038987","Maya Littlejohn","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","15-11-2021","S5-U9","NA","EURUSD","H1","NA"
+"LANGUST v1.6 DEMO","78041299","Pauline Michel","XM Global Limited","XMGlobal-Demo 4","10180","1122S$$&&d","17-11-2021","S5-U10","NA","AUDJPY-NZDCHF-USDJPY-USDCHF","M1-M15-H1","NA"
+"Lazy Trader 4.0","78041300","Jessica Rutter","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-11-2021","S5-U10","NA","USDCAD","M1","NA"
+"Legend","78041301","Claudia Brumit","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"LekTester v2.0.0","78041304","Beverly Santos","XM Global Limited","XMGlobal-Demo 4","9871","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","M15","NA"
+"Life Changer EA_full_version","78041307","Donna Wolfe","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"Lock balancer","78041309","Javier McGee","XM Global Limited","XMGlobal-Demo 4","9999","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"Manhattanfx","78041312","Kenneth Beam","XM Global Limited","XMGlobal-Demo 4","10940","1122S$$&&d","17-11-2021","S5-U10","NA","USDJPY","M1","NA"
+"cm ea spider 150419","78041316","Arthur Anderson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"MarketMakerPRO_v2_Limited_fix","78041319","Maryanne Bancroft","XM Global Limited","XMGlobal-Demo 4","10111","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","M15","NA"
+"Meris5-2020_fix","78041323","Charlotte Nantz","XM Global Limited","XMGlobal-Demo 4","10166","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD-AUDUSD","H1","NA"
+"Meris6-2020_fix","78041328","Ronald Babineaux","XM Global Limited","XMGlobal-Demo 4","9306","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD-AUDUSD","H1","NA"
+"MidasamaTrader EA_Full Unlimited","78041336","Terry McKenna","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD-USDCAD","M30","NA"
+"MIDAZ DEO EA","78041339","Felicia Davis","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","GBPUSD","M30","NA"
+"MiEA 3.0.Fixed","78041341","Patrick Estrada","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","M5","NA"
+"MindTheGap v3.00","78041345","Christian Evans","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"MonkeyPips_117","78041347","Paul Merryman","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","M1","NA"
+"BRREAKOUT-WIN_fix","78041351","Jacob Schilling","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","GBPUSD","M1","NA"
+"evolution_renko_ea_v1_31","78041355","Tracey Roberts","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD-GBPUSD","M1","NA"
+"evolution_renko_ea_v1_31","78041355","Tracey Roberts","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD-GBPUSD","M1","NA"
+"MultiHedge V1.1","78041358","Ina Blount","XM Global Limited","XMGlobal-Demo 4","11228","1122S$$&&d","17-11-2021","S5-U10","NA","USDCAD","H1","NA"
+"MultiZigzag V1.0","78041359","David Lambert","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"MiEA 4.0","78041361","Andrew Kirkpatrick","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","USDCAD","H1","NA"
+"NewsTrader_v6.4 600+","78041363","Ethel Smith","XM Global Limited","XMGlobal-Demo 4","9956","1122S$$&&d","17-11-2021","S5-U10","NA","USDCAD","M30","NA"
+"NonLagDot (NLD) EA v2.5","78041366","Ryan Martin","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","17-11-2021","S5-U10","NA","EURUSD","H1","NA"
+"Forex Armor EA - GBPJPY H1_fix","78026418","Luther Owens","XM Global Limited","XMGlobal-Demo 4","10910","1122S$$&&d","02-11-2021","S5-U4","NA","GBPJPY","H1","NA"
+"WallStreet_ASIA_v1,4","78026419","Agnes Reyes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD-EURCHF-EURGBP-GBPCAD-GBPCHF-GBPUSD-USDCAD-USDCHF-USDJPY","H1","NA"
+"AutoBot XXX","78026440","Nick Little","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD-GBPUSD-AUDUSD-NZDUSD-USDJPY-USDCAD","H1","NA"
+"EAsistan2019_703_2EN_fix","78026445","Stacie Powers","XM Global Limited","XMGlobal-Demo 4","10712","1122S$$&&d","02-11-2021","S5-U4","NA","EURUSD-GOLD","M15","NA"
+"EA - Budak Ubat v1.51","78029857","Steve Everhart","XM Global Limited","XMGlobal-Demo 4","10943","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD-USDJPY-GBPUSD-EURJPY","M15","NA"
+"EA BUY + SELL LISCENCE 26206","78029861","Leon Finn","XM Global Limited","XMGlobal-Demo 4","0","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD","M30","NA"
+"EA_FractalCandle 1,1limit_fix","78029863","Eusebia Rosado","XM Global Limited","XMGlobal-Demo 4","16094","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD","H1","NA"
+"Fx Correlation EA Update 1.3","78029867","Anthony Christensen","XM Global Limited","XMGlobal-Demo 4","10133","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD-EURGBP","M15","NA"
+"EA Gold Hedger","78029868","Joseph Busby","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U4","NA","EURUSD-GBPUSD","H1","NA"
+"EA-HOKKYDJONG","78029870","Christine Hunter","XM Global Limited","XMGlobal-Demo 4","10300","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"Hyperboloid Multi v9.5","78029872","Mamie Schade","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"manhatttan_LUX_fix","78029874","Patricia Baker","XM Global Limited","XMGlobal-Demo 4","10450","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","M1","NA"
+"AP  6.3","78029878","Kelly Payne","XM Global Limited","XMGlobal-Demo 4","10006","1122S$$&&d","05-11-2021","S5-U5","NA","EURCHF","M5","NA"
+"Break_Even_Script","78029881","Mary Brown","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"EAsistan2019_101_b","78029885","Denise Oneal","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"EA_Nostradamus_S","78029886","Brenda Vincent","XM Global Limited","XMGlobal-Demo 4","11874","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","M5","NA"
+"Over Rich 88 V9.1_fix","78029890","Naomi Sims","XM Global Limited","XMGlobal-Demo 4","11392","1122S$$&&d","05-11-2021","S5-U5","NA","USDCHF-USDJPY-EURUSD","H4","NA"
+"Panther Trader Pro","78029892","Laura Dimas","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","05-11-2021","S5-U5","NA","AUDUSD-EURUSD-GBPUSD","M1","NA"
+"EA Red Dragon v3.12","78029896","Peggy Flowers","XM Global Limited","XMGlobal-Demo 4","9632","1122S$$&&d","05-11-2021","S5-U5","NA","EURUSD","M30","NA"
+"FastBinaryTradeExpert","78032129","Wendy Teel","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U5","NA","EURUSD","H1","NA"
+"Forex Force","78032131","Brandon James","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","GOLD","M30","NA"
+"FiboActiveBot","78032132","Brad Lewis","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","M30","NA"
+"Fisher 1.7 PRO_fix","78032134","Arthur Morrow","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"FletBreakFX","78032138","Alan Sikora","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURJPY-USDJPY-GBPJPY-","H1","NA"
+"FlexEA 504.950","78032140","Margaret Hughes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD-GBPUSD","H1","NA"
+"Flex EA CorrelatedHedge v1.02","78032141","Robert Cherry","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","GBPUSD-GBPJPY","H1","NA"
+"Force Dragon EA_fix","78032142","Eric Elam","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-11-2021","S5-U6","NA","EURUSD","H1","NA"
+"Force investor EA_fix","78032143","Sarah Hemphill","XM Global Limited","XMGlobal-Demo 4","10063","1122S$$&&d","09-11-2021","S5-U6","NA","EURUSD","M30","NA"
+"Price Action Scalping","78049543","Christene Condie","XM Global Limited","XMGlobal-Demo 4","9709","1122SSdd",,,,,,
+"Price Action Scalping","78049543","Christene Condie","XM Global Limited","XMGlobal-Demo 4","9709","1122SSdd","26-11-2021","S5-U11","NA","GBPUSD-EURUSD","M1","NA-MP"
+"PricelessGrid","78049547","Dorothy Hart","XM Global Limited","XMGlobal-Demo 4","10073","1122SSdd","26-11-2021","S5-U11","NA","GBPUSD-EURUSD","H1","NA"
+"PRIVATE WEALTH EA V2.0 NEWS","78049549","Henry Yazzie","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","M5","NA"
+"PRIVATE WEALTH ROBOT ULTRA BREAKEVEN Update","78049553","Gina Wood","XM Global Limited","XMGlobal-Demo 4","9973","1122SSdd","07-12-2021","S5-U11","NA","EURUSD","H1","NA"
+"Profit-Fx_1-94","78049555","John Spooner","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","DAILY","NA"
+"PROFIT-FX_Trend_v3.3_fix","78049556","Ralph Stewart","XM Global Limited","XMGlobal-Demo 4","10145","1122SSdd","26-11-2021","S5-U11","NA","GBPUSD","H1","NA"
+"Ilan-TriosKS v1.47","78049558","Micheal Frary","XM Global Limited","XMGlobal-Demo 4","11256","1122SSdd","26-11-2021","S5-U11","NA","GOLD","M1","NA"
+"ProfitLocker.v1.75_fix","78049559","Samuel Peoples","XM Global Limited","XMGlobal-Demo 4","10030","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","M15","NA"
+"Nuclear Profit EA","78049561","George Hardy","XM Global Limited","XMGlobal-Demo 4","10001","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","M5","NA"
+"EA with Force Magic v4 edu","78049563","Tracey Waterman","XM Global Limited","XMGlobal-Demo 4","4","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"Profit Seven EA2","78049565","David Baer","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD-GBPUSD","H1","NA"
+"No Sleep EA","78049498","Charles Henderson","XM Global Limited","XMGlobal-Demo 4","11113","1122SSdd","26-11-2021","S5-U11","NA","EURUSD-GBPUSD-AUDUSD","H4","NA"
+"NYCloseScalper_v2.6","78049501","Henry Classen","XM Global Limited","XMGlobal-Demo 4","10001","1122SSdd","26-11-2021","S5-U11","NA","GBPUSD-EURCHF-USDCHF-USDCAD-EURUSD","M5","NA"
+"OCO","78049506","jack john","XM Global Limited","XMGlobal-Demo 4","9926","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","M15","NA"
+"ea odin v3.1_fix","78049507","Juan Mitchell","XM Global Limited","XMGlobal-Demo 4","10018","1122SSdd","26-11-2021","S5-U11","NA","EURUSD-GBPUSD-AUDUSD","H1","NA"
+"FATv3 Trader On Chart v1.5b","78049513","Jerry Krueger","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD-EURJPY-GBPUSD","M30","NA"
+"EA SendCloseOrder 4","78049516","David Swain","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"line break","78049521","Guy Acevedo","XM Global Limited","XMGlobal-Demo 4","8866","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"ORION EA Scalper","78049522","Carole Ferguson","XM Global Limited","XMGlobal-Demo 4","13502","1122SSdd","26-11-2021","S5-U11","NA","EURUSD-GBPUSD-AUDUSD","M5","NA"
+"ParanoiaEA_EURUSD_H1_v1.1_edu","78049524","Bonnie Lancaster","XM Global Limited","XMGlobal-Demo 4","10084","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"PerfectScore","78049525","Eugene Boyles","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"Pipgenius","78049534","Sara Brandon","XM Global Limited","XMGlobal-Demo 4","10166","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","Daily","NA"
+"Pirate v1.20","78049535","Taylor Allen","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","CHFJPY-EURUSD","M15","NA"
+"Pitchfork EA","78049536","Patrick Flaugher","XM Global Limited","XMGlobal-Demo 4","10053","1122SSdd","26-11-2021","S5-U11","NA","GBPUSD-EURUSD","M15","NA"
+"PowerfulForex 1.12_fix","78049540","Nadine Rosen","XM Global Limited","XMGlobal-Demo 4","10000","1122SSdd","26-11-2021","S5-U11","NA","EURUSD","H1","NA"
+"Quietly EA","78051563","Laura Holden","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","M15","NA"
+"R3PTAR_MindStorms.v1.4","78051565","Oscar Barrett","XM Global Limited","XMGlobal-Demo 4","11411","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"Real Pips Robot","78051567","Jasmine Richards","XM Global Limited","XMGlobal-Demo 4","9843","1122SS$$&&dd","29-11-2021","S8-U1","NA","USDJPY-EURUSD","H4","NA"
+"RedEye_fix","78051575","Lydia Doherty","XM Global Limited","XMGlobal-Demo 4","9625","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","M5","NA"
+"FAST SCALPER PRO V4","78051576","Elise Donnelly","XM Global Limited","XMGlobal-Demo 4","10077","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-GBPUSD","H1","NA"
+"RENKO SCALPER PRO V3.6","78051579","Alice Walker","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"RSI RENKO SCALPER NEW N","78051583","Millie Dobson","XM Global Limited","XMGlobal-Demo 4","10174","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-USDJPY-GBPUSD","H1","NA"
+"Manage_Account_Profit_RMI","78051587","Archie Rowe","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"rsi-trader1.1_1","78051589","Emily Yates","XM Global Limited","XMGlobal-Demo 4","10000"," 1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","M15","NA"
+,"78051591","Joseph Faulkner","XM Global Limited","XMGlobal-Demo 4","10136",,,,,,,
+"SA_EA_600","78051591","Joseph Faulkner","XM Global Limited","XMGlobal-Demo 4","10136","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"SafeBot_II.PRO3AUTO_aug2019C_REAL_fix","78051592","Hannah Morgan","XM Global Limited","XMGlobal-Demo 4","10110"," 1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"Scalper_AvtomatFX.com V01.050.001_fix","78051595","Daniel Baxter","XM Global Limited","XMGlobal-Demo 4","11101","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"Scalper Robot Mumet","78051598","Archie Jackson","XM Global Limited","XMGlobal-Demo 4","9921","1122SS$$&&dd","29-11-2021","S8-U1","NA","USDJPY-EURUSD","H4","NA"
+"Scalp-M PRO 2.0_fix","78051600","Sarah Cartwright","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"ShadyScoopy v5","78051601","Sofia Law","XM Global Limited","XMGlobal-Demo 4","10076","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-GBPUSD","H1","NA"
+"ShustRobot_ver_2.2_fix","78051607","Finley Adams","XM Global Limited","XMGlobal-Demo 4","10108","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"Signalpro","78051612","Bradley Turner","XM Global Limited","XMGlobal-Demo 4","10101","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","M15","NA"
+"Silicon Falcon_fix","78051613","Kian Price","XM Global Limited","XMGlobal-Demo 4","9936","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-USDJPY","H1","NA"
+"Simplicity EA V2.1","78051614","Harriet Wright","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","CADCHF-EURUSD","H1","NA"
+"Six Study EA","78051616","Sean Watts","XM Global Limited","XMGlobal-Demo 4","9261","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-GBPUSD","M30","NA"
+"SkyNet Advisor v2.0.1_fix","78051618","Lucy Lynch","XM Global Limited","XMGlobal-Demo 4","10718","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"!SLOW RUNNER v1","78051619","Bailey Sharp","XM Global Limited","XMGlobal-Demo 4","10007","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD-GBPUSD","H1","NA"
+"SmartForexRobot_1.0_fix","78051623","Mollie Daniels","XM Global Limited","XMGlobal-Demo 4","10004","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURGBP-EURUSD-GBPUSD","M1","NA"
+"Sniper Suite Ultimate v7.1","78051624","Kieran Roberts","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","29-11-2021","S8-U1","NA","EURUSD","H1","NA"
+"Sparta v.1.14_fix","78051626","Melissa Stone","XM Global Limited","XMGlobal-Demo 4","11084","1122SS$$&&dd","29-11-2021","S8-U1","NA","GBPUSD","H1","NA"
+"S P H Y N X","78053812","Hollie Norton","XM Global Limited","XMGlobal-Demo 4","8951","1122SS$$&&dd","01-12-2021","S8-U2","NA","GBPUSD-EURUSD","M5","NA"
+"SRT","78053818","Rebecca Willis","XM Global Limited","XMGlobal-Demo 4","10009","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"stabilizator","78053820","Elizabeth Humphries","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","AUDUSD-EURUSD","H1","NA"
+"SA_Server_600","78053821","Lydia Talbot","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD-EURGBP","H1","NA"
+"SuperEATMA","78053826","Danielle May","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M5","NA"
+"SuperEuroUsdScalper1.1-FBS-leverage500","78053831","Ellie Bailey","XM Global Limited","XMGlobal-Demo 4","9753","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Th3Eng Forex Chief_fix","78053833","Rebecca Morris","XM Global Limited","XMGlobal-Demo 4","10001","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Gorilla_EA_v1.3","78053834","Maddison Knowles","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Theorem_5_fix","78053838","Laura Hammond","XM Global Limited","XMGlobal-Demo 4","10112","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURCHF-EURUSD","M5","NA"
+"Theorem_5_fix","78053838","Laura Hammond","XM Global Limited","XMGlobal-Demo 4","10375","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURCHF-EURUSD","M5","NA"
+"Ranger EA V3 (audcad)","78053841","Isabel Simmons","XM Global Limited","XMGlobal-Demo 4","10275","1122SS$$&&dd","01-12-2021","S8-U2","NA","AUDCAD-EURUSD","H1","NA"
+"Ranger EA V3 (gbpcad)","78053842","Lara Harrison","XM Global Limited","XMGlobal-Demo 4","10124","1122SS$$&&dd","01-12-2021","S8-U2","NA","GBPCAD-EURUSD","H1","NA"
+"TRD Prime_fix","78053847","Summer Ryan","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"THG Straddle Trader Diamond_v2.8.2","78053848","Ella Marsden","XM Global Limited","XMGlobal-Demo 4","10000"," 1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M1","NA"
+"VondereichFX V1.3","78053849","Alice Jackson","XM Global Limited","XMGlobal-Demo 4","10080","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M5","NA"
+"T R A C K E Rn","78053850","Tegan Barker","XM Global Limited","XMGlobal-Demo 4","10009","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"TRD Ultra_fix","78053856","Poppy Lawson","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Trade Manager 2","78053853","Jennifer Owens","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","GBPUSD-EURUSD","H1","NA"
+"Traideringerv4_Full_Unlocked","78053854","Hannah Kennedy","XM Global Limited","XMGlobal-Demo 4","8320","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURCAD-EURUSD","H1","NA"
+"TRD Ultra_fix","78053856","Poppy Lawson","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Trend Hunter V.8_fix","78053857","Emily Radley","XM Global Limited","XMGlobal-Demo 4","10194","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD ","H1","NA"
+"TRIANGULAR CORRECTION mkowa","78053859","Maya Burke","XM Global Limited","XMGlobal-Demo 4","10001","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"TrillionDollarPips","78053861","Isobel Williamson","XM Global Limited","XMGlobal-Demo 4","9999","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M1","NA"
+"Friend-3","78053862","Lilly Macdonald","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M30","NA"
+"TVForexV73","78053864","Jade Miah","XM Global Limited","XMGlobal-Demo 4","10032","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Forex_Wiki_Ultimate ONE","78053865","Charlotte Robinson","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","H1","NA"
+"Ultimate ONE","78053866","Chelsea Schofield","XM Global Limited","XMGlobal-Demo 4","10000","1122SS$$&&dd","01-12-2021","S8-U2","NA","EURUSD","M15","NA"
+"Ultimatum Breakout_fix","78055793","Toby Nicholls","XM Global Limited","XMGlobal-Demo 4","9990","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","SF-NA"
+"ULTRON","78055808","Zoe Francis","XM Global Limited","XMGlobal-Demo 4","9947","1122DDss","03-12-2021","S8-U3","NA","GBPUSD","H1","SF-NA"
+"Velocity_fix","78055811","Jake Schofield","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","GBPUSD","H4","SF-NA"
+"VenomVipper (EURUSD)","78055815","Jay Clements","XM Global Limited","XMGlobal-Demo 4","10103","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","NA"
+"VolatilityFactor_v4.0_4in1_edu","78055818","Mollie Wheeler","XM Global Limited","XMGlobal-Demo 4","10022","1122DDss","03-12-2021","S8-U3","NA","EURUSD","M15","NA"
+"WSB_WallStreetBot_Trend_fix","78055845","Jodie Haynes","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","EURUSD","M15","NA"
+"winnerfxpro v2","78055848","Lilly Baldwin","XM Global Limited","XMGlobal-Demo 4","11027","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","NA"
+"WinningSolutionV13h","78055850","Alex Hope","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss",,,,,,
+"WinningSolutionV13h","78055850","Alex Hope","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","NA"
+"WSB_WallStreetBot_Trend_fix","78055851","Georgina Whitehead","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","Na","EURUSD","H1","NA"
+"XDoubler","78055868","Harry Nolan","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","NA"
+"XMT-Scalper_v2.522","78055872","Ryan Wilkins","XM Global Limited","XMGlobal-Demo 4","9630","1122DDss","03-12-2021","S8-U3","NA","EURUSD","M1","NA"
+"XTURBO SCALPER V3.4.0 SECURED","78055873","Jude Marsh","XM Global Limited","XMGlobal-Demo 4","10279","1122DDss","03-12-2021","S8-U3","NA","EURUSD","M5","SF-NA"
+"YIKPUYII_EA_3T","78055874","Owen Sharpe","XM Global Limited","XMGlobal-Demo 4","22","1122DDss","03-12-2021","S8-U3","NA","EURUSD-GBPUSD-GOLD","H1","SF-NA"
+"WSB_WallStreetBot_Trend_New_fix","78055876","Morgan Palmer","XM Global Limited","XMGlobal-Demo 4","12410","1122DDss",,,,,,
+"WSB_WallStreetBot_Trend_New_fix","78055876","Morgan Palmer","XM Global Limited","XMGlobal-Demo 4","12411","1122DDss","03-12-2021","S8-U3","NA","EURCHF-EURJPY-EURUSD-GBPUSD-EURGBP-USDCAD-USDCHF-USDJPY","H1","SF-NA"
+"1 MINUTE SCALPER","78055877","Charles Davis","XM Global Limited","XMGlobal-Demo 4","9810","1122DDss",,,,,,
+"1 MINUTE SCALPER","78055877","Charles Davis","XM Global Limited","XMGlobal-Demo 4","9810","1122DDss","03-12-2021","S8-U3","NA","USDJPY","M15","NA"
+"Amazon EA","78055879","George Wyatt","XM Global Limited","XMGlobal-Demo 4","10106","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H1","SF-NA"
+"FIBONACCI EA","78055882","Francesca Hussain","XM Global Limited","XMGlobal-Demo 4","9683","1122DDss","06-12-2021","S8-U3","NA","EURUSD-GBPUSD-USDCAD","M15-H1","NA"
+"Fractals EA","78055887","Lola Iqbal","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","EURUSD","H4","NA"
+"Price Action EA","78055889","Mason Armstrong","XM Global Limited","XMGlobal-Demo 4","10097","1122DDss","15-12-2021","S8-U3","NA","GBPUSD","M1","SF-NA"
+"_GrailExpertMAV1_0","78055891","Isobel Rees","XM Global Limited","XMGlobal-Demo 4","8282","1122DDss","06-12-2021","S8-U3","NA","EURUSD-GBPUSD","H1","NA"
+"0Graal_CROSSSmuvingi","78055893","Lucy Norton","XM Global Limited","XMGlobal-Demo 4","9971","1122DDss","07-12-2021","S8-U3","NA","EURUSD-GBPUSD","H1","NA"
+"9eagbolltrade_ron_mt4_v03c_www_forex-instruments_i","78055894","Edward Elliott","XM Global Limited","XMGlobal-Demo 4","9512","1122DDss","06-12-2021","S8-U3","NA","EURUSD","H1","SF-NA"
+"10_points_3","78055896","Alexandra Newton","XM Global Limited","XMGlobal-Demo 4","10000","1122DDss","03-12-2021","S8-U3","NA","EURUSD-GBPUSD-USDCHF","H1","SF-NA"
+"ADX_MA","78055900","Logan Marsden","XM Global Limited","XMGlobal-Demo 4","9931","1122DDss","07-12-2021","S8-U3","NA","EURUSD","H1","SF-NA"
+"Alezav_speedup_m1","78057847","Joshua Phillips","XM Global Limited","XMGlobal-Demo 4","9928","1122DDss","06-12-2021","S8-U4","NA","EURUSD","M1","SF-NA"
+"Aocci","78057852","Delbert Labat","XM Global Limited","XMGlobal-Demo 4","8921","1122S$$&&d","27-12-2021","S8-U4","NA","EURUSD","H4","SF-NA"
+"ArtificialIntelligence","78057855","Cynthia Smith","XM Global Limited","XMGlobal-Demo 4","6598","1122S$$&&d","06-12-2021","S8-U4","NA","USDJPY","M1","SF-NA"
+"Arttrader_v1_5","78057856","Melissa Alvarez","XM Global Limited","XMGlobal-Demo 4","9296","1122S$$&&d",,,,,,
+"Arttrader_v1_5","78057856","Melissa Alvarez","XM Global Limited","XMGlobal-Demo 4","9296","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSD","H1","SF-NA"
+"Badorders","78057859","Tangela Burge","XM Global Limited","XMGlobal-Demo 4","24","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSD-GBPUSD","H1","SF-NA"
+"Bago_ea","78057865","Manuel Hager","XM Global Limited","XMGlobal-Demo 4","10133","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","H1","SF-NA"
+"Bago_ea","78057865","Manuel Hager","XM Global Limited","XMGlobal-Demo 4","10085","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","H1","SF-NA"
+"Basket_Writer_v7","78057866","Mildred Lathem","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSD-AUDUSD-USDJPY-USDCHF-USDCAD-NZDUSD","M30-H1-H4-D1","SF-NA"
+"bea()twoperbar_ron_mt4_vtest01","78057869","Patricia Cowley","XM Global Limited","XMGlobal-Demo 4","11","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSUD","H1","SF-NA"
+"Cobra Neo Armor H1","78057871","Howard Wilson","XM Global Limited","XMGlobal-Demo 4","9888","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSD","H1","NA"
+"Combo_Right","78057872","Jerry Wester","XM Global Limited","XMGlobal-Demo 4","9916","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","M5","NA"
+"Contrarian_trade_MA","78057873","Billy Barber","XM Global Limited","XMGlobal-Demo 4","9885","1122S$$&&d","13-12-2021","S8-U4","NA","EURUSD","H1","NA"
+"CurrencyProfits_01_1","78057874","Barbara Kent","XM Global Limited","XMGlobal-Demo 4","9580","1122S$$&&d","06-12-2021","S8-U4","NA","EURUSD","M5","NA"
+"CyberiaTrader","78057875","Hanna Miranda","XM Global Limited","XMGlobal-Demo 4","1","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","H4","NA"
+"Daydream01","78057879","Bernie Jackson","XM Global Limited","XMGlobal-Demo 4","9655","1122S$$&&d","07-12-2021","S8-U4","NA","USDJPY-EURUSD","H1","NA"
+"Divergence_Trader","78057882","Anthony Robinson","XM Global Limited","XMGlobal-Demo 4","10051","1122S$$&&d","06-12-2021","S8-U4","NA","USDJPY-EURUSD","H1","NA"
+"DoubleUp","78057885","Norman Wagstaff","XM Global Limited","XMGlobal-Demo 4","10001","1122S$$&&d","08-12-2021","S8-U4","NA","EURUSD-GBPUSD","H1","NA"
+"DoubleUp2","78057887","Cynthia Rosario","XM Global Limited","XMGlobal-Demo 4","14543","1122S$$&&d","08-12-2021","S8-U4","NA","EURUSD-GBPUSD","H1","NA"
+"E-friday","78057890","Daniel Aviles","XM Global Limited","XMGlobal-Demo 4","9920","1122S$$&&d","10-12-2021","S8-U4","NA","GOLD-EURUSD-GBPUSD","H1","NA"
+"Elite_eFibo_Trader_v2_1","78057891","Albert Cortez","XM Global Limited","XMGlobal-Demo 4","1806","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD-USDCHF","H1","NA"
+"EMA_CROSS_2","78057894","Alfred Shoemaker","XM Global Limited","XMGlobal-Demo 4","9951","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","H1","NA"
+"Ema_corss_contest_hedged","78057898","John Hepner","XM Global Limited","XMGlobal-Demo 4","9781","1122S$$&&d","08-12-2021","S8-U4","NA","EURUSD","M30","NA"
+"E-news-luckyw","78057901","Ramon James","XM Global Limited","XMGlobal-Demo 4","9983","1122S$$&&d","07-12-2021","S8-U4","NA","EURUSD","M5","NA"
+"e-TurboFx","78058867","Elliot Moore","XM Global Limited","XMGlobal-Demo 4","10002","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Firebird_v0_60_deaz1","78058870","Jasmine Pugh","XM Global Limited","XMGlobal-Demo 4","10434","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","D1","NA"
+"Ala Blue R1","78058872","Mason Wong","XM Global Limited","XMGlobal-Demo 4","10106","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Bunny_v2.2_600+","78058876","Aidan Coleman","XM Global Limited","XMGlobal-Demo 4","10276","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","M15","NA"
+"Candeliticum V10.11 (revisi ke 3)","78058878","Joe Ross","XM Global Limited","XMGlobal-Demo 4","9986","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"doctor_ea","78058880","Amy Haynes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"EA PARABOLIC SAR","78058882","Lewis Day","XM Global Limited","XMGlobal-Demo 4","9887","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"fatman","78058884","Leon Waters","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD-USDJPY","H4","NA"
+"TheForbiddenFruit4","78058886","Amelia Hancock","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Joko_Samudro","78058890","Luke Allen","XM Global Limited","XMGlobal-Demo 4","42","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Forex Gratis Robot","78058892","Kai Griffin","XM Global Limited","XMGlobal-Demo 4","9285","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Lucky_acnl6p6j89zn91fa","78058893","Sienna Thomas","XM Global Limited","XMGlobal-Demo 4","498","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"personal_assistant","78058910","William Brady","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Princess Raena V1.0","78058911","Ewan Willis","XM Global Limited","XMGlobal-Demo 4","10873","1122S$$&&d","07-12-2021","S8-U5","NA","USDJPY-NZDUSD-CADJPY-AUDUSD","M5","NA"
+"REVTraderPRO","78058912","Ryan Bell","XM Global Limited","XMGlobal-Demo 4","9736","1122S$$&&d","07-12-2021","S8-U5","NA","AUDUSD-EURUSD-NZDUSD-GBPUSD","H1","NA"
+"Scalper EA Neptune","78058916","Kyle Young","XM Global Limited","XMGlobal-Demo 4","10595","1122S$$&&d","07-12-2021","S8-U5","NA","EURJPY","M5","NA"
+"Forex_TALISMAN_AUDCAD","78058917","Aimee Pugh","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","AUDCAD","H1","NA"
+"Forex_Envy_v2.0_edu_nodl","78058918","Eloise Nelson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","M30","NA"
+"Frank_ud","78058920","Jessica Hicks","XM Global Limited","XMGlobal-Demo 4","5","1122S$$&&d","07-12-2021","S8-U5","NA","GBPUSD-USDCHF","H4-M15","NA"
+"Forex_SenSei_Robot","78058922","Anna Wong","XM Global Limited","XMGlobal-Demo 4","10093","1122S$$&&d","08-12-2021","S8-U5","NA","GBPUSD","M30","NA"
+"Galactico","78058924","Gabriel Cooke","XM Global Limited","XMGlobal-Demo 4","9050","1122S$$&&d","08-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"gaps","78058925","Eve Carroll","XM Global Limited","XMGlobal-Demo 4","10075","1122S$$&&d","13-12-2021","S8-U5","NA","GBPUSD","H1","NA"
+"Get_rich_or_die_typing_any_gbp","78058926","Spencer Schofield","XM Global Limited","XMGlobal-Demo 4","1724","1122S$$&&d","07-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"Get_trend","78058927","Alexandra Ingram","XM Global Limited","XMGlobal-Demo 4","4374","1122S$$&&d","08-12-2021","S8-U5","NA","EURUSD","H1","NA"
+"GoldenEyes v1.8","78058928","Harriet Parsons","XM Global Limited","XMGlobal-Demo 4","2463","1122S$$&&d","09-12-2021","S8-U5","NA","GBPUSD-EURUSD-USDCHF-USDJPY","H1","NA"
+"gpfTCPPivotLimit","78059891","Myra Dorn","XM Global Limited","XMGlobal-Demo 4","10044","1122S$$&&d","09-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"Gselector","78059896","Cynthia Johnson","XM Global Limited","XMGlobal-Demo 4","8713","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H4","NA"
+"Halcyon EA","78059898","Marion Rodriguez","XM Global Limited","XMGlobal-Demo 4","9872","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD-GBPUSD","H1","NA"
+"HAN_Z-Score","78059899","Agustin Deguzman","XM Global Limited","XMGlobal-Demo 4","9956","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"HBS_system","78059974","Roger Jones","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M1","NA"
+"JK_BullP_AutoTrader2","78059977","Toni Porter","XM Global Limited","XMGlobal-Demo 4","5775","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M1","NA"
+"JK_sinkhro1","78059979","Gracie Simmons","XM Global Limited","XMGlobal-Demo 4","8938","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M5","NA"
+"karbofors robot","78059980","Phyllis Oakes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","GBPUSD","M30","NA"
+"Legacy ea","78059983","Cleo Hamby","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","AUDUSD","M5","NA"
+"MA2CCI","78059984","Maria Doolin","XM Global Limited","XMGlobal-Demo 4","10041","1122S$$&&d","09-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"MA_S_R_Trading","78059985","David Oboyle","XM Global Limited","XMGlobal-Demo 4","9523","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M5","NA"
+"MACD_Sample","78059987","Betty Rhoads","XM Global Limited","XMGlobal-Demo 4","10073","1122S$$&&d","10-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"MacdPatternTrader01","78059990","John Bhatt","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"Multi_Lot_Scalper","78059992","Mabel Byrne","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H4","NA"
+"Nrtr_revers_www_forex-instruments_info","78059994","Jeremy Miller","XM Global Limited","XMGlobal-Demo 4","8702","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M1","NA"
+"Odin","78059997","Barbara Thurston","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"Pivotema3rlhv4_www_forex-instruments_info","78059999","Doris Chavez","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"RndTrade","78060007","Aaron Smith","XM Global Limited","XMGlobal-Demo 4","6196","1122S$$&&d","09-12-2021","S8-U6","NA","EURUSD","M30","NA"
+"RndTrade","78060007","Aaron Smith","XM Global Limited","XMGlobal-Demo 4","6196","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","M30","NA"
+"RobotPowerM5_meta4V12","78060012","Cheryl Ambrose","XM Global Limited","XMGlobal-Demo 4","8152","1122S$$&&d","09-12-2021","S8-U6","NA","EURUSD","H4","NA"
+"Rsi_trader_v0_10_www_forex-instruments_info","78060013","Audrey Vanwinkle","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"Session_breakout_v10_mbk_www_forex-instruments_inf","78060017","Mack Baughn","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"SilverTrendV3","78060019","Jason Doman","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M15","NA"
+"SilverTrendV3","78060019","Jason Doman","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURUSD","M15","NA"
+"Simple-macd-ea_www_forex-instruments_info","78060021","Mae Garner","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","08-12-2021","S8-U6","NA","EURJPY","H1","NA"
+"Smc_hilo_v11_1_www_forex-instruments_info","78060023","Gayle Thomas","XM Global Limited","XMGlobal-Demo 4","10016","1122S$$&&d","09-12-2021","S8-U6","NA","EURUSD","H1","NA"
+"starter","78060928","Steven Bilbo","XM Global Limited","XMGlobal-Demo 4","10497","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","M30","NA"
+"Starter_v6mod_e_www_forex-instruments_info","78060930","Ellen Barnes","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","GBPUSD-EURUSD","H1","NA"
+"Stoch","78060931","John Guinn","XM Global Limited","XMGlobal-Demo 4","9986","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","M15","NA"
+"Strategytester1_www_forex-instruments_info","78060932","Kathy Brunson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","GBPUSD-EURUSD","H1","NA"
+"Suffic369_www_forex-instruments_info","78060934","Kimberly Martin","XM Global Limited","XMGlobal-Demo 4","9991","1122S$$&&d","15-12-2021","S8-U7","NA","EURUSD","H1","NA"
+"Surefirething_www_forex-instruments_info","78060937","Patricia Finck","XM Global Limited","XMGlobal-Demo 4","9981","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","M1","NA"
+"Sweet_spot_extreme_www_forex-instruments_info","78060938","Calvin Walker","XM Global Limited","XMGlobal-Demo 4","9666","1122S$$&&d","15-12-2021","S8-U7","NA","EURUSD","M1","NA"
+"TDSGlobal_4","78060940","Sharon Sanchez","XM Global Limited","XMGlobal-Demo 4","9341","1122S$$&&d","09-12-2021","S8-U7","NA","USDJPY-USDCHF-GBPUSD-EURUSD","D1","NA"
+"Terminator_v2_0_www_forex-instruments_info","78060942","Ann Rollin","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","USDCHF","M15","NA"
+"TheMasterMind","78060943","Margaret Cole","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","H1","NA"
+"ThePuncher","78060945","Jose Johnston","XM Global Limited","XMGlobal-Demo 4","12338","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","M5","NA"
+"Ticks","78060948","Sandy Vargas","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD-USDJPY","M5","NA"
+"TradeChannel","78060949","James Smith","XM Global Limited","XMGlobal-Demo 4","10213","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","H1","NA"
+"TrendMeLeaveMe","78060950","Claudia Washington","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","GBPUSD","H1","NA"
+"TrueScalperProfitLock","78060953","Christina Ball","XM Global Limited","XMGlobal-Demo 4","9281","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","H4","NA"
+"Tunnelmethod_www_forex-instruments_info","78060956","David Kyles","XM Global Limited","XMGlobal-Demo 4","9880","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD-GBPUSD","H1","NA"
+"Universalmacrossea_www_forex-instruments_info","78060957","Melinda Trevino","XM Global Limited","XMGlobal-Demo 4","9393","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD","M15","NA"
+"UsdChf_new","78060959","Ramon Brown","XM Global Limited","XMGlobal-Demo 4","9760","1122S$$&&d","16-12-2021","S8-U7","NA","USDCHF","M1","NA"
+"Vlado_www_forex-instruments_info","78060960","Vera Newborn","XM Global Limited","XMGlobal-Demo 4","6633","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD","M1","NA"
+"Vlado_www_forex-instruments_info","78060960","Vera Newborn","XM Global Limited","XMGlobal-Demo 4","6633","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD","M1","NA"
+"VLT_TRADER","78060961","John Douglas","XM Global Limited","XMGlobal-Demo 4","9934","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD-GBPUSD","M5","NA"
+"Volume_trader_v2_www_forex-instruments_info","78060962","Edwin Dunn","XM Global Limited","XMGlobal-Demo 4","10077","1122S$$&&d","10-12-2021","S8-U7","NA","EURUSD","H1","NA"
+"VQ_EA","78060963","Michael Casey","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD-GBPUSD","M5","NA"
+"Waddah_Attar_Win","78060965","Marsha Elliott","XM Global Limited","XMGlobal-Demo 4","11821","1122S$$&&d","10-12-2021","S8-U7","NA","USDJPY-GBPJPY-GBPUSD","M15","NA"
+"ZeroLagEA-AIP_v0_0_4","78060967","Mark Taylor","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","D1","NA"
+"_StopLossMove","78060969","Ralph Cowles","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","09-12-2021","S8-U7","NA","EURUSD","H1","NA"
+"Apple EA","78061939","Barbara Medley","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","M5","NA"
+"Alpinist_1.02_edu_fix","78061935","Kristina Benavides","XM Global Limited","XMGlobal-Demo 4","10580","1122S$$&&d","14-12-2021","S8-U8","NA","EURUSD-EURJPY-GBPUSD","M5","NA"
+"BestGride  V04.005.010_test_fix","78061944","Anne Smith","XM Global Limited","XMGlobal-Demo 4","10256","1122S$$&&d","14-12-2021","S8-U8","NA","GBPUSD-EURUSD-EURGBP-EURJPY","H1","NA"
+"Profit-Fx_1-96","78061923","Russell Gray","XM Global Limited","XMGlobal-Demo 4","118","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","M5","NA"
+"Bar iPro v9.1-FULL","78061943","Angela Cross","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","USDCHF","M5","NA"
+"AP 6.3","78061937","Etta Wells","XM Global Limited","XMGlobal-Demo 4","10001","1122S$$&&d","14-12-2021","S8-U8","NA","EURCHF","M5","NA"
+"SoeHoe.ID_adenanscalping","78061926","Mike Hoyt","XM Global Limited","XMGlobal-Demo 4","9755","1122S$$&&d","13-12-2021","S8-U8","NA","EURUSD","M1","NA"
+"LT Absoulte v2.4_fix","78061925","Scott Jorgenson","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","H1","NA"
+"Forex Armor EA - GBPJPY H1_fix","78061917","Royal Meikle","XM Global Limited","XMGlobal-Demo 4","11037","1122S$$&&d","10-12-2021","S8-U8","NA","GBPJPY","H1","NA"
+"Boss Ea Full Version","78061918","Adalberto Shuck","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURCHF-EURGBP-GBPCHF-USDCAD","M15","NA"
+"Ahsaas Basket Trader v1116.16---BTA2","78061932","Edmund Mayes","XM Global Limited","XMGlobal-Demo 4","10616","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","M1","NA"
+"Brainy Locker 1.28","78061945","Jodie Osterhout","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","M5","NA"
+"Cyber_mkowa 191108","78061961","Janice Garcia","XM Global Limited","XMGlobal-Demo 4","10002","1122S$$&&d","15-12-2021","S8-U8","NA","EURUSD","M5","NA"
+"Cyber_mkowa 191108","78061961","Janice Garcia","XM Global Limited","XMGlobal-Demo 4","10002","1122S$$&&d","15-12-2021","S8-U8","NA","EURUSD","M5","NA"
+"RMI_EA_inside_candle_V4_SL_lisense_320","78061953","Johnie Weaver","XM Global Limited","XMGlobal-Demo 4","10045","1122S$$&&d","14-12-2021","S8-U8","NA","GBPCAD-EURUSD","M30","NA"
+"Çàêðûòèå ïî ïðîöåíòó ïðèáûëè","78061947","Jason Baker","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD-GBPUSD","H1","NA"
+"Çàêðûòèå ïî ïðîöåíòó ïðèáûëè","78061947","Jason Baker","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD-GBPUSD","H1","NA"
+"cm ea spider 150419","78061948","Sara Emery","XM Global Limited","XMGlobal-Demo 4","10161","1122S$$&&d","15-12-2021","S8-U8","NA","AUDUSD","H1","NA"
+"cm ea spider 150419","78061948","Sara Emery","XM Global Limited","XMGlobal-Demo 4","10161","1122S$$&&d","15-12-2021","S8-U8","NA","AUDUSD","H1","NA"
+"Currency Strength D1 V4.1","78061960","Gladys Cartwright","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD-GBPUSD","D1","NA"
+"Criket-Scalper-2016","78061952","Lee Clark","XM Global Limited","XMGlobal-Demo 4","6652","1122S$$&&d","14-12-2021","S8-U8","NA","EURUSD","M30","NA"
+"Criket-Scalper-2016","78061952","Lee Clark","XM Global Limited","XMGlobal-Demo 4","6652","1122S$$&&d","14-12-2021","S8-U8","NA","EURUSD","M30","NA"
+"DAILY WATCH EA Pro v1.5 only 0,01 lot (ENG)","78061963","Sallie Dean","XM Global Limited","XMGlobal-Demo 4","10000","1122S$$&&d","10-12-2021","S8-U8","NA","GBPUSD","M1","SF-NA"
+"DIRA PO","78061964","Louis Torres","XM Global Limited","XMGlobal-Demo 4","10123","1122S$$&&d","14-12-2021","S8-U8","NA","AUDUSD-EURUSD","M1","NA"
+"DIRA PO R1","78061967","Luis Hoff","XM Global Limited","XMGlobal-Demo 4","10048","1122S$$&&d","10-12-2021","S8-U8","NA","EURUSD","H1","NA"
