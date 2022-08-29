@@ -18,6 +18,6 @@ app = create_app()
 
 
 if __name__ == '__main__':
-    # app.run(host='0.0.0.0', port=5090)
-    app.run(host=' 192.168.4.139', port=5090)
+    app.run(host='0.0.0.0', port=5090)
+    # app.run(host=' 192.168.4.139', port=5090)
 
